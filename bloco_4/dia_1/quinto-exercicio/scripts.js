@@ -24,13 +24,13 @@ b = 7
 c = 6
 
 if (a > b && a > c) {
-  console.log('teste');
+  console.log('O número maior é o', a);
 }
 else if (b > a && b > c) {
-  console.log('teste2');
+  console.log('O número maior é o', b);
 }
 else if (c > a && c > b) {
-  console.log('teste3');
+  console.log('O número maior é o', c);
 }
 else {
   console.log('Amigão, tem 2 números iguais ai bicho, pode n');
