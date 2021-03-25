@@ -159,3 +159,15 @@ c = 7;
 let isEven = (a % 2 === 0) || (b % 2 === 0) || (c % 2 === 0);
 
 console.log(isEven);
+
+
+// Parte 9
+
+
+a = 6;
+b = 6;
+c = 6;
+
+let isOdd = (a % 2 === 1) || (b % 2 === 1) || (c % 2 === 1);
+
+console.log(isOdd);
