@@ -179,7 +179,7 @@ console.log(isOdd);
 let productCost = 200;
 let saleValue = 270;
 let profit;
-isValid = !((productCost) < 0 || (saleValue < 0));
+isValid = (productCost) >= 0 || (saleValue >= 0);
 
 if (isValid) {
   profit = (saleValue - (productCost + (productCost * 0.20)));
