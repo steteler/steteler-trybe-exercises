@@ -15,7 +15,7 @@ if (a > b) {
 else {
   maior = b;
   console.log('\nO valor', b, 'é maior que o valor', a)
-}
+};
 
 
 
@@ -24,17 +24,31 @@ b = 7
 c = 6
 
 if (a > b && a > c) {
-  console.log('O número maior é o', a);
+  console.log('\nO número maior é o', a);
 }
 else if (b > a && b > c) {
-  console.log('O número maior é o', b);
+  console.log('\nO número maior é o', b);
 }
 else if (c > a && c > b) {
-  console.log('O número maior é o', c);
+  console.log('\nO número maior é o', c);
 }
 else {
-  console.log('Amigão, tem 2 números iguais ai bicho, pode n');
+  console.log('\nAmigão, tem 2 números iguais ai bicho, pode n');
+};
+
+
+
+
+
+
+a = 0;
+
+if (a > 0) {
+  console.log('\nO valor é positivo');
 }
-
-
-
+else if (a < 0) {
+  console.log('\nO valor é negativo');
+}
+else {
+  console.log('\nO valor é 0');
+};
