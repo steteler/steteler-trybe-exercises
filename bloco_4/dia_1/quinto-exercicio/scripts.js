@@ -171,3 +171,20 @@ c = 6;
 let isOdd = (a % 2 === 1) || (b % 2 === 1) || (c % 2 === 1);
 
 console.log(isOdd);
+
+
+// Parte 10
+
+
+let productCost = 200;
+let saleValue = 270;
+let profit;
+isValid = !((productCost) < 0 || (saleValue < 0));
+
+if (isValid) {
+  profit = (saleValue - (productCost + (productCost * 0.20)));
+  console.log(profit);
+}
+else {
+  console.log('Erro, o valor não pode ser negativo');
+}
