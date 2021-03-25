@@ -147,3 +147,15 @@ if (isValid) {
 else {
   console.log('Nota inválida')
 }
+
+
+// Parte 8
+
+
+a = 7;
+b = 7;
+c = 7;
+
+let isEven = (a % 2 === 0) || (b % 2 === 0) || (c % 2 === 0);
+
+console.log(isEven);
