@@ -78,6 +78,7 @@ console.log('O maior número é:', higherNumber);
 
 // Parte 6
 
+/*
 
 let oddNumber=0;
 for (let index=0; index < numbers.length; index += 1) {
@@ -88,7 +89,49 @@ for (let index=0; index < numbers.length; index += 1) {
 
 console.log('Foram encontrados', oddNumber, 'números impares');
 
+*/
+
 
 // Parte 7
 
+/*
 
+let lowerValue=999;
+for (let index=0; index < numbers.length; index += 1) {
+  if (lowerValue > numbers[index]) {
+    lowerValue = numbers[index];
+  }
+}
+
+console.log('O menor número do array é:', lowerValue);
+
+*/
+
+
+// Parte 8
+
+/*
+
+let counter = [];
+
+for (let index=1; index <= 25; index += 1) {
+  counter.push(index);
+}
+
+console.log(counter);
+
+*/
+
+
+// Parte 9
+
+/*
+
+let counter = [];
+
+for (let index=0; index <= 25; index += 1) {
+  counter.push(index);
+  console.log(counter[index], 'dividido por 2 é:', (counter[index] / 2));
+}
+
+*/
