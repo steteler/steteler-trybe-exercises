@@ -1,0 +1,18 @@
+#1
+cd /home/kikuti/unix_tests
+pwd
+
+#2
+ls -l
+
+#3
+chmod a+rw bunch_of_things.txt
+ls -l
+
+#4
+chmod a-w bunch_of_things.txt
+ls -l
+
+#5
+chmod 644 bunch_of_things.txt
+ls -l
