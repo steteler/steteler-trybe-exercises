@@ -1,0 +1,76 @@
+Linux Instalação:
+
+sudo apt-get install git-all
+
+
+Configurar identidade:
+
+git config --global user.name "Seu nome"
+git config --global user.email seuemail@exemplo.br
+
+
+Escolher editor padrão:
+
+git config --global core.editor "code --wait"
+
+
+Adicionando chave SSH:
+
+ssh-keygen -t rsa -b 4096 -C "seuemail@gmail.com"
+
+
+Adicionando chave SSH ao ssh-agent
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+
+Adicionando chave SSH ao github
+(obs: o xclip ele só vai copiar a chave SSH sem precisar abrir o arquivo)
+
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
+--- ou ---
+
+obs: da pra fazer assim também e copiar a chave SSH
+{cat ~/.ssh/id_rsa.pub}
+
+
+Associando ao github:
+
+- Settings
+-SSH and GPG keys
+- New SSH key
+- Adicione um título qualquer e coloque a chave dentro do campo key
+- Clique em add SSH key
+
+
+Iniciando repositório local:
+
+git init
+
+
+Adicionando e commitando:
+
+git add arquivo
+git commit -m "mensagem"
+
+
+Conectando o repositório local com o remoto:
+
+git remote add origin chave-ssh
+-- ou --
+git remote add origin link-https
+
+
+Sincronizando os repositórios:
+obs: jogar as alterações do local pro remoto
+
+git push origin master
+
+
+PADRÃO PARA CRIAÇÃO DE REPOSITÓRIOS:
+(RECOMENDADO)
+
