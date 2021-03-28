@@ -96,6 +96,11 @@ Clonando um repositório:
 git clone urlDoSeuRepositórioTrybeExercises
 
 
+Clonando um branch específica
+
+git clone -b nome-da-branch git@link-do-repositório
+
+
 Criando um PR (pull request):
 
 - Acesse seu repositório remoto
@@ -121,3 +126,5 @@ Declarando aonde o git push vai ser feito:
 obs: só é necessário fazer isso apenas 1 vez, depois de declarado você só precisa dar git push
 
 git push -u origin nome-da-branch
+
+
