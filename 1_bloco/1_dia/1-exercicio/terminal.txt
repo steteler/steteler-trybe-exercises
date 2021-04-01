@@ -1,49 +1,81 @@
-#1
-mkdir unix_tests
-cd unix_tests
+#1 cria um diretório chamado unix_tests e navegue até ele.
+{
+  mkdir unix_tests
+  cd unix_tests
+}
 
-#2
-touch trybe.txt
+#2 cria um arquivo de texto com o nome trybe.txt
+{
+  touch trybe.txt
+}
 
-#3
-cp trybe.txt trybe_backup.txt
+#3 cria uma cópia do arquivo trybe.txt com o nome trybe_backup.txt.
+{
+  cp trybe.txt trybe_backup.txt
+}
 
-#4
-mv trybe.txt outro_nome.txt
+#4 renomeia o arquivo trybe.txt.
+{
+  mv trybe.txt outro_nome.txt
+}
 
-#5
-mkdir backup
+#5 cria um novo diretório chamado backup.
+{
+  mkdir backup
+}
 
-#6
-mv trybe_backup.txt backup
+#6 move o arquivo trybe_backup.txt para o diretório backup.
+{
+  mv trybe_backup.txt backup
+}
 
-#7
-mkdir backup2
+#7 cria um novo diretório chamado backup2.
+{
+  mkdir backup2
+}
 
-#8
-mv backup/trybe_backup.txt backup2
+#8 move o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+{
+  mv backup/trybe_backup.txt backup2
+}
 
-#9
-rmdir backup
+#9 apaga a pasta backup.
+{
+  rmdir backup
+}
 
-#10
-mv backup2 backup
+#10 renomeia a pasta backup2 para backup.
+{
+  mv backup2 backup
+}
 
-#11
-pwd
-ls -l .
+#11 mostra o path completo do diretório atual e lista todos os arquivos dentro dele.
+{
+  pwd
+  ls -l .
+}
 
-#12
-rm -rd backup
+#12 apaga o diretório backup.
+{
+  rm -rd backup
+}
 
-#13
-clear
+#13 limpa o terminal.
+{
+  clear
+}
 
-#14
-head -n 5 skills.txt
+#14 mostra na tela as 5 primeiras skills do arquivo skills.txt.
+{
+  head -n 5 skills.txt
+}
 
-#15
-tail -n 4 skills.txt
+#15 mostra na tela as 4 últimas skills do arquivo skills.txt.
+{
+  tail -n 4 skills.txt
+}
 
-#16
-rm *.txt
+#16 apaga todos os arquivos que terminem em .txt.
+{
+  rm *.txt
+}
