@@ -1,47 +1,75 @@
-#1
-curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+#1 baixa um arquivo com os nomes de todos os países do mundo.
+{
+  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+}
 
-#2
-cat countries.txt
+#2 mostra todo o conteúdo do arquivo countries.txt na tela.
+{
+  cat countries.txt
+}
 
-#3
-less countries.txt
-# ou...
-more countries.txt
+#3 mostra o conteúdo de countries.txt, página por página, até encontrar a Zambia.
+{
+  less countries.txt
+  # ou...
+  more countries.txt
+}
 
-#4
-less countries.txt
-# ou...
-more countries.txt
-# /Zambia
+#4 mostra novamente o conteúdo de countries.txt pagina por pagina, mas agora utilize um comando para buscar por Zambia.
+{
+  less countries.txt
+  # ou...
+  more countries.txt
+  # /Zambia
+}
 
-#5
-grep Brazil countries.txt
+#5 busca por Brazil no countries.txt.
+{
+  grep Brazil countries.txt
+}
 
-#6
-grep -i brazil countries.txt
+#6 busca novamente por brazil , mas agora utilizando o lower case.
+{
+  grep -i brazil countries.txt
+}
 
-#7
-grep -v fox phrases.txt
+#7 busca pelas frases que não contenham a palavra fox.
+{
+  grep -v fox phrases.txt
+}
 
-#8
-wc -w phrases.txt
+#8 conta o número de palavras do arquivo phrases.txt.
+{
+  wc -w phrases.txt
+}
 
-#9
-wc -l phrases.txt
+#9 conta o número de linhas do arquivo phrases.txt.
+{
+  wc -l phrases.txt
+}
 
-#10
-touch empty.tbt
-touch empty.pdf
+#10 cria os arquivos empty.tbt e empty.pdf.
+{
+  touch empty.tbt
+  touch empty.pdf
+}
 
-#11
-ls -l
+#11 lista todos os arquivos do diretório unix_tests.
+{
+  ls -l
+}
 
-#12
-ls -l *txt
+#12 lista todos os arquivos que terminem com txt.
+{
+  ls -l *txt
+}
 
-#13
-ls -l *t?t
+#13 lista todos os arquivos que terminem com tbt ou txt.
+{
+  ls -l *t?t
+}
 
-#14
-man ls
+#14 acessa o manual do comando ls.
+{
+  man ls
+}
