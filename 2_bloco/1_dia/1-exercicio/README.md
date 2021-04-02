@@ -142,7 +142,9 @@ O git é um mecanismo de controle de versão distribuido, que foi criado por lin
 
 -> { **git commit -am "mensagem"** } >> adiciona alterações na área de staged e commita (pega todas as alterações do diretório).
 
--> { **git --set-upstrem origin nome-da-branch  ou  git push -u origin nome-da-branch** } >> vai sincronizar o repositório local com o remoto, ele vai mandar as informações do repositório local pro remoto (só precisa declarar isso apenas 1 vez).
+-> { **git --set-upstrem origin nome-da-branch** } >> vai sincronizar o repositório local com o remoto, ele vai mandar as informações do repositório local pro remoto (só precisa declarar isso apenas 1 vez).
+
+-> { **git push -u origin nome-da-branch** } >> vai sincronizar o repositório local com o remoto, ele vai mandar as informações do repositório local pro remoto (só precisa declarar isso apenas 1 vez).
 
 -> { **git push** } >> empurra as alterações pro repositório remoto.
 
@@ -156,13 +158,19 @@ O git é um mecanismo de controle de versão distribuido, que foi criado por lin
 
 -> { **git checkout -b nome-da-branch** } - cria uma branch nova e já da checkout automaticamente nela.
 
--> { **git checkout  hash~1 nome-do-arquivo** } >> vai restaurar um arquivo apagado dentro de um commit.
+-> { **git checkout hash~1 nome-do-arquivo** } >> vai restaurar um arquivo apagado dentro de um commit.
 
 -> { **git branch** } >> vai listar todas as branchs existentes.
 
 -> { **git branch nome-da-branch** } >> cria uma nova branch.
 
--> { **git branch -d nome-do-branch** } >> apaga uma branch.
+-> { **git branch -d nome-da-branch** } >> apaga uma branch.
+
+-> { **git branch -m novo-nome** } >> renomeia uma branch.
+
+-> { **git branch -m nome-antigo novo-nome** } >> renomeia uma branch sem precisar estar dentro dela.
+
+-> { **git branch -a** } >> mostra todas as branchs, as locais e as remotas.
 
 -> { **git merge nome-da-branch** } >> vai dar um merge nas branchs, vai pegar a branch atual que você está e vai dar merge na branch informada, ou seja vai pegar todas as informações da branch selecionada.
 
@@ -218,13 +226,18 @@ O git é um mecanismo de controle de versão distribuido, que foi criado por lin
 
 <h2 align="center">GITHUB</h2>
 
-** **SOBRE GITHUB**: 
+**SOBRE GITHUB**: 
 
 O github é uma plataforma que hospeda os repositórios do git, é uma maneira de deixar o código visível e de distribuir pras outras pessoas de forma remota.
 
 <hr />
 
-** **OBSERVAÇÕES**:
+**OPÇÕES DO REPOSITÓRIO**:
+
+ - Star (estrela): Basicamente a estrela serve para você salvar um projeto como "favoritos", fazendo assim com que o link do projeto fique salvo.
+ - Fork: O fork ele vai clonar um repositório para a sua conta do github que possibilita você fazer alterações no projeto clonado, depois de terminar as modificações você pode mandar essas modificações para o dono do repositório e ele pode aceitar essas modificações ou recusar.
+
+**OBSERVAÇÕES**:
 
  - Optar por escolher o nome da branch como "main" do que "master", pois
    as empresas hoje em dia preferem assim.
