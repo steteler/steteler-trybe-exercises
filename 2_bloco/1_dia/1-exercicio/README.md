@@ -1,5 +1,10 @@
 <h2 align="center">GIT & GITHUB- Funcionalidades.</h2>
 
+<a href="https://github.com/kikutii">
+  <img width="160px" src="https://avatars.githubusercontent.com/u/12498746?s=400&u=3a18bbe9442e24787a8a37edba6efb8953ce150b&v=4" alt="Ícone de perfil verde" /></a>
+
+<h3 align="center">🄷🄴🄻🄻🄾 🅆🄾🅁🄻🄳! <br/ > I'm kikuti!</h3>
+
 <h2 align="center">PADRÃO PARA CRIAÇÃO DE REPOSITÓRIOS (RECOMENDADO):</h2>
 
 **Explicando de maneira simples**:
@@ -73,7 +78,7 @@
 
 <hr />
 
-**Recomendação**:
+**RECOMENDAÇÃO**:
 
 - Criar uma nova branch toda vez que mudar de dia ou de bloco.
 - 1_bloco - criar um novo toda vez que mudar de bloco, por exemplo 2_bloco.
@@ -236,6 +241,8 @@ O github é uma plataforma que hospeda os repositórios do git, é uma maneira d
 
  - Star (estrela): Basicamente a estrela serve para você salvar um projeto como "favoritos", fazendo assim com que o link do projeto fique salvo.
  - Fork: O fork ele vai clonar um repositório para a sua conta do github que possibilita você fazer alterações no projeto clonado, depois de terminar as modificações você pode mandar essas modificações para o dono do repositório e ele pode aceitar essas modificações ou recusar.
+
+<hr />
 
 **OBSERVAÇÕES**:
 
