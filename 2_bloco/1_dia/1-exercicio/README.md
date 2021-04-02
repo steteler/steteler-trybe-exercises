@@ -1,8 +1,4 @@
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
 <h2 align="center">GIT & GITHUB- Funcionalidades.</h2>
-
-<a class="github-button" href="https://github.com/kikutii" data-color-scheme="no-preference: light; light: dark; dark: light;" data-size="large" data-show-count="true" aria-label="Follow @kikutii on GitHub">Follow @kikutii</a>
 
 <h2 align="center">PADRÃO PARA CRIAÇÃO DE REPOSITÓRIOS (RECOMENDADO):</h2>
 
