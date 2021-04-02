@@ -17,13 +17,15 @@
  1. crie um diretório chamado Github ou Repositório-Local. obs: esse
    diretório Github ele vai guardar todos seus projetos. Recomendo que
    você crie ele na Home.
-    - [ ] mkdir Github
+
+    `mkdir Github`
+
  
  1. crie um diretório chamado trybe-exercises dentro do diretório Github.
    obs: vai ser esse diretório que vai ser versionado.
    
    
-    - [ ] mkdir trybe-exercises
+    `mkdir trybe-exercises`
 
    
  1. dê git init dentro do diretório trybe-exercises. obs: isso vai   
@@ -31,43 +33,43 @@
    diretório.
 
    
-    - [ ] git init
+    `git init`
    
  1. logo após isso, crie uma nova branch chamada: exercises/4.2. obs:
    o 4.2 é só pra representar o nome, sendo 4 (o bloco) e o 2 (o dia).
    
-    - [ ] git checkout -b exercises/4.2
+    `git checkout -b exercises/4.2`
    
  1. crie o diretório {número-do-bloco}_bloco. obs: nós estamos
    atualmente no bloco 4, ou seja, você vai criar um diretório chamado
    4_bloco
    
-    - [ ] mkdir 4_bloco
+    `mkdir 4_bloco`
    
  1. crie outro diretório chamado {número-do-bloco-do-dia}_dia. obs:
    novamente, utilize o número do dia para colocar no diretório, por
    exemplo, dentro do bloco 4, temos o dia 1 até o 5, vamos supor que
    estamos no dia 2, então você vai criar 2_dia.
    
-    - [ ] mkdir 2_dia
+    `mkdir 2_dia`
    
  1. crie o último diretório chamado {número-do-exercicio}-exercicio.
    obs: aqui você vai colocar o número do exercício que você está
    fazendo, logicamente começando do 1. Perceba também que o do
    exercício não é mais " _ " e sim " - ".
    
-    - [ ] mkdir 1-exercicio
+    `mkdir 1-exercicio`
    
  1. depois disso é só entrar dentro do diretório 1-exercicio, e criar
    o arquivo para a resolução do exercício lá dentro.
    
-    - [ ] touch scripts.js
-    - [ ] code scripts.js
+    `touch scripts.js`
+    `code scripts.js`
 
 
 **Como deve ficar**:
 
-*/home/kikuti/Github/trybe-exercises/4_bloco/2_dia/1-exercicio/scripts.js*
+`/home/kikuti/Github/trybe-exercises/4_bloco/2_dia/1-exercicio/scripts.js`
 
 <hr />
 
@@ -77,7 +79,7 @@
 - 1_bloco - criar um novo toda vez que mudar de bloco, por exemplo 2_bloco.
 - 1_dia - criar um novo toda vez que mudar de dia, por exemplo 2_dia.
 - 1-exercicios - criar um novo toda vez que resolver um exercício, por exemplo 2-exercicio.
-- 
+
 <hr />
 
 <h3>SOBRE GIT</h3>
@@ -234,6 +236,6 @@ O github é uma plataforma que hospeda os repositórios do git, é uma maneira d
  - O pull request (PR) é uma solicitação pra merge.
  - O commit só vai versionar o arquivo se ele estiver dentro da área de
    staged.
- - Nunca commitar na master/main.
+ - **Nunca commitar na master/main.**
 
 <hr />
