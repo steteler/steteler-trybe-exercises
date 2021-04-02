@@ -7,6 +7,8 @@
   <h3>🄷🄴🄻🄻🄾 🅆🄾🅁🄻🄳! <br/ > I'm kikuti!</h3>
 </div>
 
+<hr />
+
 **Explicando de maneira simples**:
 
 *Github* - diretório que vai guardar todos os projetos.
