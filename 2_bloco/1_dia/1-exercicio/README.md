@@ -1,13 +1,9 @@
 <div align="center">
-  <h1>GIT & GITHUB- Funcionalidades.</h1>
-  <h2>PADRÃO PARA CRIAÇÃO DE REPOSITÓRIOS (RECOMENDADO):</h2>
   <a href="https://github.com/kikutii">
     <img width="160px" src="https://avatars.githubusercontent.com/u/12498746?s=400&u=3a18bbe9442e24787a8a37edba6efb8953ce150b&v=4" alt="Ícone de perfil verde" />   </a>
-
-  <h3>🄷🄴🄻🄻🄾 🅆🄾🅁🄻🄳! <br/ > I'm kikuti!</h3>
+  <h1>GIT & GITHUB- Funcionalidades.</h1>
+  <h2>PADRÃO PARA CRIAÇÃO DE REPOSITÓRIOS (RECOMENDADO):</h2>
 </div>
-
-<hr />
 
 **Explicando de maneira simples**:
 
