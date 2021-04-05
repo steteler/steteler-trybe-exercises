@@ -1,6 +1,4 @@
-# Meu primeiro teste de markdown
-
-É apenas um teste de eu testando todas as funcionalidades do **.md**
+# Editar depois esse markdown
 
 ```
 git clone {url}
