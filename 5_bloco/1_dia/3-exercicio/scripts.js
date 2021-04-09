@@ -17,9 +17,8 @@ function changeColorSquareInside() {
 }
 
 function changeTextTitle() {
-  let title = document.getElementsByClassName('title')[0];
-
-  title.innerHTML = title.innerHTML.toUpperCase();
+  let title = document.getElementsByTagName('h1')[0];
+  title.innerHTML = "Exercício 5.1 - JavaScript";
 }
 
 function changeAllPTexts() {
