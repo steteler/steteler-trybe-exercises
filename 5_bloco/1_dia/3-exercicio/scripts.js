@@ -1,6 +1,7 @@
 changeText();
 changeColorSquareOutside();
 changeColorSquareInside();
+changeTextTitle();
 
 function changeText() {
   let teste = document.getElementsByTagName('p')[1];teste.innerHTML = "Trabalhar com algo que goste";
@@ -12,6 +13,12 @@ function changeColorSquareOutside() {
 
 function changeColorSquareInside() {
   document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
+}
+
+function changeTextTitle() {
+  let title = document.getElementsByClassName('title')[0];
+
+  title.innerHTML = title.innerHTML.toUpperCase();
 }
 
     /*
