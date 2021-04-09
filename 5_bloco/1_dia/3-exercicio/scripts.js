@@ -1,12 +1,17 @@
 changeText();
-changeColorSquare();
+changeColorSquareOutside();
+changeColorSquareInside();
 
 function changeText() {
   let teste = document.getElementsByTagName('p')[1];teste.innerHTML = "Trabalhar com algo que goste";
 }
 
-function changeColorSquare() {
+function changeColorSquareOutside() {
   document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
+}
+
+function changeColorSquareInside() {
+  document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
 }
 
     /*
