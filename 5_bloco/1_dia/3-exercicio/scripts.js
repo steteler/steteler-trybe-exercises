@@ -1,9 +1,13 @@
 changeText();
+changeColorSquare();
 
 function changeText() {
   let teste = document.getElementsByTagName('p')[1];teste.innerHTML = "Trabalhar com algo que goste";
 }
 
+function changeColorSquare() {
+  document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
+}
 
     /*
 Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
