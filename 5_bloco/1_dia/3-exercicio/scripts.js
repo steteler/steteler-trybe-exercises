@@ -3,24 +3,24 @@ changeColorSquareOutside();
 changeColorSquareInside();
 changeTextTitle();
 changeAllPTexts();
-
+//Exercício 1
 function changeText() {
-  let teste = document.getElementsByTagName('p')[1];teste.innerHTML = "Trabalhar com algo que goste";
+  document.getElementsByTagName('p')[1].innerHTML = "Trabalhar com algo que goste";
 }
-
+//Exercício 2
 function changeColorSquareOutside() {
   document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
 }
-
+//Exercício 3
 function changeColorSquareInside() {
   document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
 }
-
+//Exercício 4
 function changeTextTitle() {
   let title = document.getElementsByTagName('h1')[0];
   title.innerHTML = "Exercício 5.1 - JavaScript";
 }
-
+//Exercício 5
 function changeAllPTexts() {
   let tagsP = document.getElementsByTagName('p');
   for (let index in tagsP) {
