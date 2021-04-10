@@ -3,6 +3,7 @@ changeColorSquareOutside();
 changeColorSquareInside();
 changeTextTitle();
 changeAllPTexts();
+showAllPContent();
 //Exercício 1
 function changeText() {
   document.getElementsByTagName('p')[1].innerHTML = "Trabalhar com algo que goste";
@@ -22,9 +23,13 @@ function changeTextTitle() {
 //Exercício 5
 function changeAllPTexts() {
   let tagsP = document.getElementsByTagName('p');
-  for (let index in tagsP) {
-    tagsP[index].innerHTML = tagsP[index].innerHTML.toUpperCase();
+  for (let index of tagsP) {
+    index.innerHTML = index.innerHTML.toUpperCase();
   }
+}
+//Exercício 6
+function showAllPContent() {
+  console.log(document.getElementsByTagName('p'));
 }
 
     /*
