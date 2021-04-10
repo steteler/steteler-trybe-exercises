@@ -17,8 +17,7 @@ function changeColorSquareInside() {
 }
 //Exercício 4
 function changeTextTitle() {
-  let title = document.getElementsByTagName('h1')[0];
-  title.innerHTML = "Exercício 5.1 - JavaScript";
+  document.getElementsByTagName('h1')[0].innerHTML = "Exercício 5.1 - JavaScript";
 }
 //Exercício 5
 function changeAllPTexts() {
