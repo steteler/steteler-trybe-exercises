@@ -1,7 +1,7 @@
 // Exercicio 1
 const h1 = document.createElement('h1');
 h1.innerText = 'Exercício 5.2 - JavaScript DOM';
-h1.className = 'title';
+
 document.body.appendChild(h1);
 // Exercicio 2
 const div = document.createElement('div');
@@ -31,27 +31,35 @@ div.appendChild(img);
 // Exercicio 8
 const ul = document.createElement('ul');
 div4.appendChild(ul);
-// Exercicio 9
+
 const arrayListItem = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
 for (let index in arrayListItem) {
   const li = document.createElement('li');
   li.innerHTML = arrayListItem[index];
   ul.appendChild(li);
 }
-// PARTE 2
-// Exercicio 1
-for (index = 0; index < 3; index += 1) {
+// Exercicio 9
+for (let index = 0; index < 3; index += 1) {
   const h3 = document.createElement('h3');
-  h3.innerHTML = 'Show ' + index;
-  h3.className = 'description';
-  div.appendChild(h3);
+
+  // PARTE 2, Exercicio 2
+  h3.className = 'description'
+
+  div4.appendChild(h3);
 }
-// Exercicio 2
+
+// PARTE 2, Exercicio 1
+h1.className = 'title';
+
+// PARTE 2, Exercicio 3
 div.removeChild(div3);
-// Exercicio 3
+
+// PARTE 2 Exercicio 4
 div4.style.margin = 'auto';
-// Exercicio 4
+
+// PARTE 2 Exercicio 5
 div2.parentElement.style.backgroundColor = 'green';
-// Exercicio 5
+
+// PARTE 2 Exercicio 6
 div.lastChild.remove();
 div.lastChild.remove();
