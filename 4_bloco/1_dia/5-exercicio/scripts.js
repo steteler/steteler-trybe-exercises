@@ -6,9 +6,7 @@ let c = 1;
 
 console.log('Adição:', a + b, '\nSubtração:', a - b, '\nMultiplicação:', a * b, '\nDivisão:', a / b, '\nMódulo:', a % b);
 
-
 // Parte 2
-
 
 if (a > b) {
   console.log('\nO valor', a, 'é maior que o valor', b)
@@ -17,9 +15,7 @@ else {
   console.log('\nO valor', b, 'é maior que o valor', a)
 };
 
-
 // Parte 3
-
 
 a = 7
 b = 7
@@ -38,10 +34,7 @@ else {
   console.log('\nAmigão, tem 2 números iguais ai bicho, pode n');
 };
 
-
-
 // Parte 4
-
 
 a = 0;
 
@@ -55,9 +48,7 @@ else {
   console.log('\nO valor é 0');
 };
 
-
 // Parte 5
-
 
 let degreeAngleA = 30;
 let degreeAngleB = 60;
@@ -81,9 +72,7 @@ else {
   console.log('Um valor negativo foi detectado');
 }
 
-
 // Parte 6
-
 
 let nameChessPieces = 'rei';
 
@@ -117,29 +106,27 @@ switch (nameChessPieces.toLowerCase()) {
     break;
 }
 
-
 // Parte 7
-
 
 let testGrade = 70;
 let isValid = !((testGrade > 100) || (testGrade < 0));
 
 if (isValid) {
-  if (testGrade >= 90 ) {
+  if (testGrade >= 90) {
     console.log('A');
-  } 
+  }
   else if (testGrade >= 80) {
     console.log('B');
-  } 
+  }
   else if (testGrade >= 70) {
     console.log('C');
-  } 
+  }
   else if (testGrade >= 60) {
     console.log('D');
-  } 
+  }
   else if (testGrade >= 50) {
     console.log('E');
-  } 
+  }
   else {
     console.log('F');
   }
@@ -148,9 +135,7 @@ else {
   console.log('Nota inválida')
 }
 
-
 // Parte 8
-
 
 a = 7;
 b = 7;
@@ -160,9 +145,7 @@ let isEven = (a % 2 === 0) || (b % 2 === 0) || (c % 2 === 0);
 
 console.log(isEven);
 
-
 // Parte 9
-
 
 a = 6;
 b = 6;
@@ -172,9 +155,7 @@ let isOdd = (a % 2 === 1) || (b % 2 === 1) || (c % 2 === 1);
 
 console.log(isOdd);
 
-
 // Parte 10
-
 
 let productCost = 200;
 let saleValue = 270;
@@ -188,3 +169,36 @@ if (isValid) {
 else {
   console.log('Erro, o valor não pode ser negativo');
 }
+
+// Parte 11
+
+let aliquotINSS;
+let aliquotIR;
+
+let grossSalary = 2000.00;
+
+if (grossSalary <= 1556.94) {
+  aliquotINSS = grossSalary * 0.08;
+} else if (grossSalary <= 2594.92) {
+  aliquotINSS = grossSalary * 0.09;
+} else if (grossSalary <= 5189.82) {
+  aliquotINSS = grossSalary * 0.11;
+} else {
+  aliquotINSS = 570.88;
+}
+
+let baseSalary = grossSalary - aliquotINSS;
+
+if (baseSalary <= 1903.98) {
+  aliquotIR = 0;
+} else if (baseSalary <= 2826.65) {
+  aliquotIR = (baseSalary * 0.075) - 142.80;
+} else if (baseSalary <= 3751.05) {
+  aliquotIR = (baseSalary * 0.15) - 354.80;
+} else if (baseSalary <= 4664.68) {
+  aliquotIR = (baseSalary * 0.225) - 636.13;
+} else {
+  aliquotIR = (baseSalary * 0.275) - 869.36;
+};
+
+console.log("Salário: " + (baseSalary - aliquotIR));

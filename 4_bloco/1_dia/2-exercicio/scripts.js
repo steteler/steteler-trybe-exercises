@@ -1,5 +1,3 @@
-/*
-
 let patientId = 50;
 let isEnrolled = true;
 const patientInfo = {
@@ -13,8 +11,6 @@ console.log(typeof patientId, typeof isEnrolled, typeof patientInfo, typeof pati
 patientId = '50'
 
 console.log(typeof patientId);
-
-*/
 
 let base = 5;
 let altura = 8;
