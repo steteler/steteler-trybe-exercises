@@ -7,5 +7,3 @@ console.log(name, birthCity, birthYear);
 birthYear = 2020;
 
 console.log(birthYear);
-
-// ** = exponenciação
