@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  height: 50px;
+  margin: auto;
+  width: 100%;
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.one {
+  background-color: #FBD26A;
+}
+
+.two {
+  background-color: #FAA488;
+}
+
+.three {
+  background-color: #9069EF;
+}
+
+.four {
+  background-color: #006472;
+}
