@@ -6,6 +6,7 @@ body {
   font-family: Raleway, sans-serif;
   justify-content: center;
   width: 100vw;
+  overflow: hidden;
 }
 
 h1 {
@@ -79,12 +80,5 @@ p strong {
   .card:nth-of-type(3) {
     background-color: #41197f;
     display: block;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  p.trick {
-    color: white;
-    font-size: 14px;
   }
 }
