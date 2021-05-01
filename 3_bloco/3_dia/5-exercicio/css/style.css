@@ -1,9 +1,11 @@
 ol li {
   background-color: yellow;
 }
+
 li:nth-child(even) {
   color: green;
 }
+
 li:nth-child(odd) {
   text-transform: uppercase;
 }
@@ -11,6 +13,7 @@ li:nth-child(odd) {
 h1, h2 {
   color: red;
 }
+
 h1 em, h2 em {
   font-size: 40px;
   border: 1px solid black;
@@ -19,12 +22,15 @@ h1 em, h2 em {
 li {
   font-size: 20px;
 }
+
 li em {
   font-weight:bold
 }
+
 li:nth-child(-n+3){
   background-color: blue;
 }
+
 li[value*="java"]{
   background-color: pink;
 }
