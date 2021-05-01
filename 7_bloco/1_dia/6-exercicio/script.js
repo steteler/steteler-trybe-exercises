@@ -1,18 +1,17 @@
-const array = ["Android", "iOS", "Architecture", "Teach", "Run"]
+const arraySkills = ["Android", "iOS", "Architecture", "Teach", "Run"];
 
-function buildSkillsPhrase (paramOne) {
-  const fun1 = paramInner => (
-    `Tryber ${paramInner} aqui! Tudo bem?`
-  )
+const buildSkillsPhrase = paramOne => {
+  const callTryber = paramInner => `Tryber ${paramInner} aqui! Tudo bem?`;
 
-  let result = `${fun1(paramOne)}\n\nMinhas cinco principais habilidades são:`
+  let result = `${callTryber(paramOne)}\n\nMinhas cinco principais habilidades são:`
 
-  array.forEach((skill, index) =>
-  result = `${result}\n\n- ${skill}`)
+  arraySkills.forEach((skill, index) => {
+    result = `${result}\n\n- ${skill}`
+  })
 
-  result = `${result}\n\n#goTrybe`
+  result = `${result}\n\n#goTrybe`;
 
-  return result
+  return result;
 }
 
-console.log(buildSkillsPhrase("Lucas"))
+console.log(buildSkillsPhrase("kikuti"))
