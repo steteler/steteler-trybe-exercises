@@ -2,8 +2,8 @@ function longestWord(phrase) {
   let wordArray = phrase.split(' ');
   let biggestLetter = '';
 
-  for(const INDEX of wordArray) {
-    if (INDEX.length > biggestLetter.length) biggestLetter = INDEX;
+  for(const index of wordArray) {
+    if (index.length > biggestLetter.length) { biggestLetter = index };
   }
   return biggestLetter;
 }
