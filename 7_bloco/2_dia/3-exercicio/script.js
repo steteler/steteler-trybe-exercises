@@ -22,6 +22,12 @@ const addNewKeyValue = (objeto, key, keyValue) => {
   objeto[key] = keyValue;
 }
 
+const showObjectKeys = (objeto) => {
+  return Object.keys(objeto);
+}
+
 addNewKeyValue(lesson2, 'turno', 'manhã');
 
-console.table(lesson2);
+console.table(lesson2)
+
+console.log(showObjectKeys(lesson1));
