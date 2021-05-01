@@ -25,10 +25,14 @@ const addNewKeyValue = (objeto, key, keyValue) => {
 addNewKeyValue(lesson2, 'turno', 'manhã');
 console.table(lesson2)
 
-const showObjectKeys = (objeto) => Object.keys(objeto);
+const showObjectKeys = objeto => Object.keys(objeto);
 
 console.log(showObjectKeys(lesson1));
 
-const showObjectLength = (objeto) => Object.keys(objeto).length;
+const showObjectLength = objeto => Object.keys(objeto).length;
 
 console.log(showObjectLength(lesson1));
+
+const listObjectValues = objeto => Object.values(objeto);
+
+console.log(listObjectValues(lesson1));
