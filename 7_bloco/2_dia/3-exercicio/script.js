@@ -41,3 +41,13 @@ const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
 
 console.table(allLessons);
 
+const getNumberOfStudents = objeto => {
+  let result = 0;
+  let array = Object.keys(objeto);
+  for (const index of array) {
+    result += objeto[index].numeroEstudantes;
+  }
+  return result;
+};
+
+console.log(getNumberOfStudents(allLessons));
