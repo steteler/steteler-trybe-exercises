@@ -62,3 +62,14 @@ console.log(getNumberOfStudents(allLessons));
 const getValueByNumber = (objeto, index) => Object.values(objeto)[index];
 
 console.log(getValueByNumber(lesson1, 0));
+
+//Parte 8
+const verifyPair = (objeto, key, keyValue) => {
+  const array = Object.entries(objeto);
+  let isEqual = false;
+  for (let index in array) {
+    if (array[index][0] === key && array[index][1] === keyValue) isEqual = true;
+  }
+  return isEqual;
+};
+console.log(verifyPair(lesson2,'professor','Carlos'));
