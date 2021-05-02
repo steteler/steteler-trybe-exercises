@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
+    "lint:styles": "npx stylelint '**/*.css'"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   "homepage": "https://github.com/kikuti-fullstack/trybe-exercises#readme",
   "devDependencies": {
     "eslint": "^7.25.0",
-    "eslint-config-trybe-fundamentals": "^1.1.0"
+    "eslint-config-trybe-fundamentals": "^1.1.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
   },
   "dependencies": {}
 }
