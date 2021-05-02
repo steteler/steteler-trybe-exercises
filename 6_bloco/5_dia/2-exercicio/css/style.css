@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 * {
   box-sizing: inherit;
 }
@@ -12,15 +13,16 @@ body {
 
 h1 {
   font-size: 1.8em;
-  margin: .9em 0 0 0;
+  margin: 0.9em 0 0 0;
 }
+
 h2 {
   font-size: 1.5em;
   margin: 1.5em 0 0 0;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 figure {
@@ -31,8 +33,9 @@ figure {
   body {
     background-color: red;
     font-size: 16px;
-    margin: 24px 6%
+    margin: 24px 6%;
   }
+
   figure {
     float: left;
     width: 45%;

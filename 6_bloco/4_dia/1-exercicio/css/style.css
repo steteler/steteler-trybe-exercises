@@ -8,7 +8,7 @@
 
 .keep {
   align-self: center;
-  background-color: #FAA488;
+  background-color: rgb(250, 164, 136);
   display: flex;
   justify-content: center;
   width: 150px;
@@ -16,7 +16,7 @@
 
 .change {
   align-self: center;
-  background-color: #FBD26A;
+  background-color: rgb(251, 210, 106);
   display: flex;
   justify-content: center;
   width: 200px;

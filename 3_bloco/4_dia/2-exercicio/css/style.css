@@ -1,11 +1,13 @@
-aside, footer, nav {
+aside,
+footer,
+nav {
   border-top: 1px gray solid;
 }
 
 body {
   font-size: 19px;
   font-weight: normal;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   line-height: 33px;
   font-family: Georgia, serif;
   width: 70%;
@@ -22,7 +24,9 @@ body {
   text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -55,7 +59,9 @@ nav ul li a {
   text-decoration: none;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #ddd;
   border-collapse: collapse;
 }

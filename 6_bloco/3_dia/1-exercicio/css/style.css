@@ -1,5 +1,5 @@
 .box {
-  color: #9069EF;
+  color: rgb(144, 105, 239);
   background-color: rgb(243, 243, 243);
   border: 2px solid #232525;
   font-size: 50px;
@@ -12,9 +12,5 @@
 .box-container {
   background-color: #0fa36b;
   display: flex;
-  /*
-  flex-direction: row;
-  flex-wrap: wrap;
-  */
   flex-flow: row wrap;
 }

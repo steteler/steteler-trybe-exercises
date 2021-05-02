@@ -37,7 +37,8 @@ body {
     align-items: baseline;
   }
 
-  aside, header {
+  aside,
+  header {
     margin-left: 24px;
     flex-basis: 200px;
     flex-grow: 1;
