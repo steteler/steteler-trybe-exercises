@@ -4,7 +4,6 @@ const customer = {
 };
 
 const createNewKeyValue = (object, key, keyValue) => {
-  // eslint-disable-next-line no-param-reassign
   object[key] = keyValue;
 };
 
