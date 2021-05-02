@@ -1,9 +1,9 @@
-let names = {
+const names = {
   person1: 'João',
   person2: 'Maria',
-  person3: 'Jorge' 
-}
+  person3: 'Jorge',
+};
 
-for (let index in names) {
-  console.log('Olá ' + names[index]);
+for (const index of Object.values(names)) {
+  console.log(`Olá ${index}`);
 }

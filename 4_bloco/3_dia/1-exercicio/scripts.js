@@ -1,4 +1,4 @@
-let number=8;
+const number = 8;
 let numberAsterisks = '';
 
 if (number > 1) {

@@ -1,9 +1,9 @@
-let carro = {
+const carro = {
   model: 'A3 Sedan',
   manufacturer: 'Audi',
-  year: 2020
-}
+  year: 2020,
+};
 
-for (let index in carro) {
-  console.log(index + ': ' +  carro[index]);
+for (const index of Object.entries(carro)) {
+  console.log(`${index[0]}: ${index[1]}`);
 }
