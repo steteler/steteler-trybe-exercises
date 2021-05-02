@@ -18,38 +18,39 @@ const lesson3 = {
   turno: 'noite',
 };
 
-//Parte 1
-const addNewKeyValue = (objeto, key, keyValue) => {
+// Parte 1
+const addNewKeyValue = (objeto, key, keyValue) => { 
+  // eslint-disable-next-line no-param-reassign
   objeto[key] = keyValue;
-}
+};
 
 addNewKeyValue(lesson2, 'turno', 'manhã');
-console.table(lesson2)
+console.table(lesson2);
 
-//Parte 2
-const showObjectKeys = objeto => Object.keys(objeto);
+// Parte 2
+const showObjectKeys = (objeto) => Object.keys(objeto);
 
 console.log(showObjectKeys(lesson1));
 
-//Parte 3
-const showObjectLength = objeto => Object.keys(objeto).length;
+// Parte 3
+const showObjectLength = (objeto) => Object.keys(objeto).length;
 
 console.log(showObjectLength(lesson1));
 
-//Parte 4
-const listObjectValues = objeto => Object.values(objeto);
+// Parte 4
+const listObjectValues = (objeto) => Object.values(objeto);
 
 console.log(listObjectValues(lesson1));
 
-//Parte 5
-const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
+// Parte 5
+const allLessons = { lesson1, lesson2, lesson3 };
 
 console.table(allLessons);
 
-//Parte 6
-const getNumberOfStudents = objeto => {
+// Parte 6
+const getNumberOfStudents = (objeto) => {
   let result = 0;
-  let array = Object.keys(objeto);
+  const array = Object.keys(objeto);
   for (const index of array) {
     result += objeto[index].numeroEstudantes;
   }
@@ -58,18 +59,18 @@ const getNumberOfStudents = objeto => {
 
 console.log(getNumberOfStudents(allLessons));
 
-//Parte 7
+// Parte 7
 const getValueByNumber = (objeto, index) => Object.values(objeto)[index];
 
 console.log(getValueByNumber(lesson1, 0));
 
-//Parte 8
+// Parte 8
 const verifyPair = (objeto, key, keyValue) => {
   const array = Object.entries(objeto);
   let isEqual = false;
-  for (let index in array) {
+  for (const index in array) {
     if (array[index][0] === key && array[index][1] === keyValue) isEqual = true;
   }
   return isEqual;
 };
-console.log(verifyPair(lesson2,'professor','Carlos'));
+console.log(verifyPair(lesson2, 'professor', 'Carlos'));

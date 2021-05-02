@@ -15,44 +15,39 @@ const order = {
       pepperoni: {
         amount: 1,
         price: 20,
-      }
+      },
     },
     drinks: {
       coke: {
         type: 'Coca-Cola Zero',
         price: 10,
         amount: 1,
-      }
+      },
     },
     delivery: {
       deliveryPerson: 'Ana Silveira',
       price: 5,
-    }
+    },
   },
   payment: {
     total: 60,
   },
 };
 
-/*
-const customerInfo = order => {
-  return `  Olá ${order.order.delivery['deliveryPerson']}!
-  Entrego para: ${order['name']}
-  Telefone: ${order['phoneNumber']}
-  R. ${order.address['street']}
-  Nº: ${order.address['number']}`
-}
+// Parte 1
+const customerInfo = (order2) => `Olá ${order2.order.delivery.deliveryPerson}! Entrego para: ${order2.name} Telefone: ${order2.phoneNumber} R. ${order2.address.street} Nº: ${order2.address.number}`;
 
 console.log(customerInfo(order));
-*/
 
-const orderModifier = (order) => {
-  const newBuyer = order['name'] = 'Luiz Silva';
-  const pizzaFlavor = Object.keys(order.order.pizza);
+// Parte 2
+const orderModifier = (order2) => {
+  let newBuyer = order2.name;
+  newBuyer = 'Luiz Silva';
+  const pizzaFlavor = Object.keys(order2.order.pizza);
 
   return `  Olá ${newBuyer}
   O total do seu pedido de ${pizzaFlavor} e ${order.order.drinks.coke.type}
-  É de: R$ ${order.payment.total},00`
-}
+  É de: R$ ${order.payment.total},00`;
+};
 
 console.log(orderModifier(order));
