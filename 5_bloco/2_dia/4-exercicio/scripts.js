@@ -33,18 +33,19 @@ const ul = document.createElement('ul');
 divRightContent.appendChild(ul);
 
 const arrayListItem = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
-for (let index in arrayListItem) {
+for (let index = 0; index < arrayListItem.length; index += 1) {
   const li = document.createElement('li');
   li.innerHTML = arrayListItem[index];
   ul.appendChild(li);
 }
+
 // Exercicio 9
 for (let index = 0; index < 3; index += 1) {
   const h3 = document.createElement('h3');
-  h3.innerHTML = 'Show ' + index;
+  h3.innerHTML = `Show ${index}`;
 
   // PARTE 2, Exercicio 2
-  h3.className = 'description'
+  h3.className = 'description';
 
   divMain.appendChild(h3);
 }
@@ -62,5 +63,5 @@ divRightContent.style.margin = 'auto';
 divCenter.parentElement.style.backgroundColor = 'green';
 
 // PARTE 2 Exercicio 6
-ul.lastChild.remove()
-ul.lastChild.remove()
+ul.lastChild.remove();
+ul.lastChild.remove();
