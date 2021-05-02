@@ -1,4 +1,4 @@
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-let menuServices = menu[1];
+const menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+const menuServices = menu[1];
 
 console.log(menuServices);

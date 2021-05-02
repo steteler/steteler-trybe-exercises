@@ -1,11 +1,9 @@
-let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
-let indexTasks;
+const tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+const indexTasks = tasksList.indexOf('Reunião');
 
 tasksList.pop();
 console.log(tasksList);
 
 tasksList.shift();
 console.log(tasksList);
-
-indexTasks = tasksList.indexOf('Reunião') 
 console.log(indexTasks);

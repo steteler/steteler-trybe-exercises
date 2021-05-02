@@ -10,5 +10,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-restricted-syntax": "off",
+        "max-len": "off"
     }
 }

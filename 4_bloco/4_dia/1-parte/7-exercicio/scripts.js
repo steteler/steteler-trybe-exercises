@@ -1,10 +1,10 @@
-let info = {
+const info = {
   personagem: 'Margarida',
   origem: 'Pato Donald',
   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-  recorrente: 'Sim'
+  recorrente: 'Sim',
 };
 
-for (let attributes in info) {
-  console.log(attributes);
+for (const index of Object.keys(info)) {
+  console.log(index);
 }

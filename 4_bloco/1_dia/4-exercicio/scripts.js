@@ -1,16 +1,16 @@
-let candidate = 'lista';
+const candidate = 'lista';
 
 switch (candidate) {
   case 'aprovada':
-    console.log("Parabéns, você foi aprovada(o)!");
+    console.log('Parabéns, você foi aprovada(o)!');
   break;
   case 'reprovada':
-    console.log("Você foi reprovada(o)");
+    console.log('Você foi reprovada(o)');
   break;
   case 'lista': 
-    console.log("Você está na nossa lista de espera");
+    console.log('Você está na nossa lista de espera');
   break;
   default:
-    console.log("não se aplica");
+    console.log('não se aplica');
   break;
 }
