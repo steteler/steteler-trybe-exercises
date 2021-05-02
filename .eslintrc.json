@@ -11,6 +11,7 @@
     },
     "rules": {
         "no-restricted-syntax": "off",
-        "max-len": "off"
+        "max-len": "off",
+        "no-param-reassign": "off"
     }
 }
