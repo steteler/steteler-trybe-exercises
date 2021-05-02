@@ -1,12 +1,12 @@
-var paragraph = document.getElementById("paragraph");
-paragraph.style.color = "red";
+const paragraph = document.getElementById('paragraph');
+paragraph.style.color = 'red';
 
-document.getElementById("page-title").innerText = "Jim Carrey The Cable Man";
+document.getElementById('page-title').innerText = 'Jim Carrey The Cable Man';
 
-var secondParagraph = document.getElementById("second-paragraph");
+const secondParagraph = document.getElementById('second-paragraph');
 
-secondParagraph.style.color = "blue";
+secondParagraph.style.color = 'blue';
 
-var subTitle = document.getElementById("subtitle");
+const subTitle = document.getElementById('subtitle');
 
 subTitle.style.fontSize = '24px';
