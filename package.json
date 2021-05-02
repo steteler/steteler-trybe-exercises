@@ -1,0 +1,24 @@
+{
+  "name": "trybe-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikuti-fullstack/trybe-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kikuti-fullstack/trybe-exercises/issues"
+  },
+  "homepage": "https://github.com/kikuti-fullstack/trybe-exercises#readme",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-trybe-fundamentals": "^1.1.0"
+  },
+  "dependencies": {}
+}
