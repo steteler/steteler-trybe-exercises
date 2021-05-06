@@ -42,7 +42,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [ ] 5-1: _[Projeto - Meme Generator]()_
 - [x] 5-2: _[Projeto - Arte com Pixels](https://github.com/kikutii/kikuti-project-pixels-art)_
-- [ ] 5-3: _[Projeto - Lista de tarefas]()_
+- [x] 5-3: _[Projeto - Lista de tarefas](https://github.com/kikutii/kikuti-project-todo-list)_
 - [ ] 5-4: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-5: _[Projeto - Carta Misteriosa]()_
 
