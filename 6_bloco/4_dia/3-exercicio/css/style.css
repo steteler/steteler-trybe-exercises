@@ -12,19 +12,19 @@
 }
 
 .one {
-  background-color: #FBD26A;
+  background-color: rgb(251, 210, 106);
   display: flex;
   flex-grow: 1;
 }
 
 .two {
-  background-color: #FAA488;
+  background-color: rgb(250, 164, 136);
   display: flex;
   flex-grow: 2;
 }
 
 .three {
-  background-color: #9069EF;
+  background-color: rgb(144, 105, 239);
   display: flex;
   flex-grow: 3;
 }

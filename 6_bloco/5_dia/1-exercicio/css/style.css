@@ -61,7 +61,6 @@ p strong {
   background-color: #41197f;
 }
 
-
 @media screen and (min-width: 500px) {
   .card:nth-of-type(1) {
     background-color: #0fa36b;

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ubuntu';
+  font-family: Ubuntu, sans-serif;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 .header-container {
-  background-color: #5C687C;
+  background-color: rgb(92, 104, 124);
   display: flex;
 }
 
@@ -69,7 +69,7 @@ body {
 
 .card-container div {
   align-items: center;
-  background-color: #5C687C;
+  background-color: rgb(92, 104, 124);
   border: black solid 1px;
   display: flex;
   height: 150px;
@@ -87,7 +87,8 @@ body {
   align-self: center;
 }
 
-.aside-container h3, h4 {
+.aside-container h3,
+h4 {
   margin-bottom: 10px;
   text-align: center;
 }
