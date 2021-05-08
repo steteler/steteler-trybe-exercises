@@ -30,7 +30,7 @@
 }
 
 .four {
-  background-color: #006472;
+  background-color: rgb(0, 100, 114);
   display: flex;
   flex-grow: 4;
 }
