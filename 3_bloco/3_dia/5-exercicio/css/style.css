@@ -2,12 +2,20 @@ li {
   font-size: 20px;
 }
 
+ol li {
+  background-color: yellow;
+}
+
 li em {
   font-weight: bold;
 }
 
-ol li {
-  background-color: yellow;
+li:nth-child(-n+3) {
+  background-color: blue;
+}
+
+li[value*="java"] {
+  background-color: pink;
 }
 
 li:nth-child(even) {
@@ -27,12 +35,4 @@ h1 em,
 h2 em {
   font-size: 40px;
   border: 1px solid black;
-}
-
-li:nth-child(-n+3) {
-  background-color: blue;
-}
-
-li[value*="java"] {
-  background-color: pink;
 }

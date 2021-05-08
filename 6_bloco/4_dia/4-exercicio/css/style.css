@@ -27,7 +27,7 @@
 }
 
 .three {
-  background-color: rgb(144, 105, 239);
+  background-color: rgb(141, 103, 239);
   display: flex;
   flex-shrink: 3;
 }
