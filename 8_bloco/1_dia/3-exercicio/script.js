@@ -1,12 +1,10 @@
-function numberChecker(playerNumber, LOTTERY_NUMBER) {
-  return playerNumber === LOTTERY_NUMBER ? 'Parabéns você acertou!' : 'Você errou!';
-}
+const numberChecker = (playerNumber, lotteryNumber) => (playerNumber === lotteryNumber ? 'Parabéns você acertou!' : 'Você errou!');
 
 const lotteryResult = (playerNumber, callback) => {
-  const LOTTERY_NUMBER = Math.floor((Math.random() * 5) + 1);  
-  return `${callback(playerNumber, LOTTERY_NUMBER)}
+  const lotteryNumber = Math.floor((Math.random() * 5) + 1);  
+  return `${callback(playerNumber, lotteryNumber)}
   Seu número: ${playerNumber}
-  Número sortiado: ${LOTTERY_NUMBER}`;
+  Número sortiado: ${lotteryNumber}`;
 };
 
 console.log(lotteryResult(1, numberChecker));
