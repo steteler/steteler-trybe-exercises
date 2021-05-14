@@ -1,12 +1,16 @@
-function numberChecker(playerNumber, LOTTERY_NUMBER) {
-  return playerNumber === LOTTERY_NUMBER ? 'Parabéns você acertou!' : 'Você errou!';
-}
-
-const lotteryResult = (playerNumber, callback) => {
-  const LOTTERY_NUMBER = Math.floor((Math.random() * 5) + 1);  
-  return `${callback(playerNumber, LOTTERY_NUMBER)}
-  Seu número: ${playerNumber}
-  Número sortiado: ${LOTTERY_NUMBER}`;
+const employeeGenerator = (fullName) => {
+  let email = fullName.toLowerCase().split(' ').join('_').normalize('NFD');
+  email = email.replace(/[\u0300-\u036f]/g, '');
+  return { fullName, email: `${email}@trybe.com` };
 };
 
-console.log(lotteryResult(1, numberChecker));
+const newEmployees = (callback) => {
+  const employees = {
+    id1: callback('João Victor Kikuti'),
+    id2: callback('Luiza Drumond'),
+    id3: callback('Carla Paiva'),
+  };
+  return employees;
+};
+
+console.table(newEmployees(employeeGenerator));
