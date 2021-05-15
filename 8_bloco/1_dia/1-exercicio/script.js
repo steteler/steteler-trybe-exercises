@@ -1,16 +1,13 @@
-const employeeGenerator = (fullName) => {
-  let email = fullName.toLowerCase().split(' ').join('_').normalize('NFD');
-  email = email.replace(/[\u0300-\u036f]/g, '');
-  return { fullName, email: `${email}@trybe.com` };
+const wakeUp = () => 'Acordando!!';
+
+const drinkCoffee = () => 'Bora tomar café!!';
+
+const sleep = () => 'Partiu dormir!!';
+
+const doingThings = (callback) => {
+  console.log(callback());
 };
 
-const newEmployees = (callback) => {
-  const employees = {
-    id1: callback('João Victor Kikuti'),
-    id2: callback('Luiza Drumond'),
-    id3: callback('Carla Paiva'),
-  };
-  return employees;
-};
-
-console.table(newEmployees(employeeGenerator));
+doingThings(wakeUp);
+doingThings(drinkCoffee);
+doingThings(sleep);
