@@ -63,7 +63,7 @@ const books = [
   },
 ];
 
-function smallerName() {
+const smallerName = () => {
   let nameBook;
 
   books.forEach((value) => {
@@ -71,6 +71,6 @@ function smallerName() {
   });
 
   return nameBook;
-}
+};
 
 assert.strictEqual(smallerName(), 'Duna');
