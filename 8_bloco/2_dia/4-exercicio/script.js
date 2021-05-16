@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-duplicate-string */
 const assert = require('assert');
 
 const books = [
