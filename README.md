@@ -252,12 +252,4 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 36-4: _Entrada e Saída de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
 
-## Bônus
-
-##### Animações com CSS
- 
-- [x] B-1: _CSS Animations - Part 1_
-- [x] B-2: _CSS Animations - Part 2_
-- [x] B-3: _[Projeto - The Daily Prophet]()_
-
 # [...]
