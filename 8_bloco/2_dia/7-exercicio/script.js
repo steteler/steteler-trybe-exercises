@@ -65,6 +65,6 @@ const books = [
 
 const expectedResult = false;
 
-const authorUnique = () => books.every((value) => books.some((value2) => (value.author.birthYear === value2.author.birthYear) && (value.author.name !== value2.author.name)));
+const authorUnique = () => books.every((value) => !books.some((value2) => (value.author.birthYear === value2.author.birthYear) && (value.author.name !== value2.author.name)));
 
 assert.strictEqual(authorUnique(), expectedResult);
