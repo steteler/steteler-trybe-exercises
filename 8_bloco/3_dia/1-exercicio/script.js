@@ -72,6 +72,6 @@ const expectedResult = [
   'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
 ];
 
-const formatedBookNames = () => books.map((value) => `${value.name} - ${value.genre} - ${value.author.name}`);
+const formatedBookNames = () => books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
 
 assert.deepStrictEqual(formatedBookNames(), expectedResult);
