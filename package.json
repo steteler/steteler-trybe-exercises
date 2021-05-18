@@ -5,21 +5,23 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
-    "lint:styles": "npx stylelint '**/*.css'"
+    "lint:styles": "npx stylelint '**/*.css'",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kikuti-fullstack/trybe-exercises.git"
+    "url": "git+https://github.com/kikutii/trybe-exercises.git"
   },
-  "author": "",
+  "author": "kikutii",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kikuti-fullstack/trybe-exercises/issues"
+    "url": "https://github.com/kikutii/trybe-exercises/issues"
   },
-  "homepage": "https://github.com/kikuti-fullstack/trybe-exercises#readme",
+  "homepage": "https://github.com/kikutii/trybe-exercises#readme",
   "devDependencies": {
     "eslint": "^7.25.0",
     "eslint-config-trybe-fundamentals": "^1.1.0",
+    "jest": "^26.6.3",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
   },
