@@ -20,5 +20,4 @@ const decode = (string) => {
   return string;
 };
 
-exports.encode = encode;
-exports.decode = decode;
+module.exports = { encode, decode };
