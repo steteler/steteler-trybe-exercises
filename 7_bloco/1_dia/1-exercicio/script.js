@@ -1,5 +1,5 @@
 const testingScope = (escopo) => {
-  if (escopo === true) {
+  if (escopo) {
     const ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
     return `${ifScope} ótimo, fui utilizada no escopo !`;
   }

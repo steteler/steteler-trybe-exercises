@@ -1,4 +1,4 @@
-function lowestIndexValue(value) {
+const lowestIndexValue = (value) => {
   let lowestValue = 0;
   for (const attributes in value) {
     if (value[attributes] < lowestValue) {

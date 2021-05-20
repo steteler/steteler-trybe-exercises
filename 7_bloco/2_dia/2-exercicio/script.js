@@ -35,7 +35,8 @@ const order = {
 };
 
 // Parte 1
-const customerInfo = (order2) => `Olá ${order2.order.delivery.deliveryPerson}! Entrego para: ${order2.name} Telefone: ${order2.phoneNumber} R. ${order2.address.street} Nº: ${order2.address.number}`;
+const customerInfo = (order2) => 
+  `Olá ${order2.order.delivery.deliveryPerson}! Entrego para: ${order2.name} Telefone: ${order2.phoneNumber} R. ${order2.address.street} Nº: ${order2.address.number}`;
 
 console.log(customerInfo(order));
 
