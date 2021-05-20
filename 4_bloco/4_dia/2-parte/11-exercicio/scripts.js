@@ -6,6 +6,6 @@ const highestIndexValue = (values) => {
     }
   }
   return highestValue;
-}
+};
 
 console.log(`O maior índice é: ${highestIndexValue([2, 3, 6, 7, 10, 1])}`);

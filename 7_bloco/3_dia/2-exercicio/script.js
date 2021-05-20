@@ -8,7 +8,7 @@ const myRemove = (arr, item) => {
     }
   }
   return newArr;
-}
+};
 
 assert.strictEqual(typeof myRemove, 'function');
 // Exercicio 1

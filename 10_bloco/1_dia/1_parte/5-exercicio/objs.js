@@ -1,4 +1,3 @@
-/* eslint-disable sonarjs/no-duplicate-string */
 const obj1 = {
   title: 'My Title',
   description: 'My Description',
