@@ -1,4 +1,4 @@
-function highestIndexValue(values) {
+const highestIndexValue = (values) => {
   let highestValue = 0;
   for (const attributes in values) {
     if (highestValue < values[attributes]) {

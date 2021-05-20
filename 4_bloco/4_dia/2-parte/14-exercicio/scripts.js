@@ -1,4 +1,4 @@
-function biggestName(names) {
+const biggestName = (names) => {
   let biggest = '';
   for (const attributes in names) {
     if (names[attributes].length > biggest.length) {

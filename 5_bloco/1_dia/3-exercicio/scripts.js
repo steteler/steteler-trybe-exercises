@@ -1,35 +1,35 @@
 // Exercício 1
-function changeText() {
+const changeText = () => {
   document.getElementsByTagName('p')[1].innerHTML = 'Trabalhar com algo que goste';
-}
+};
 
 // Exercício 2
-function changeColorSquareOutside() {
+const changeColorSquareOutside = () => {
   document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
-}
+};
 
 // Exercício 3
-function changeColorSquareInside() {
+const changeColorSquareInside = () => {
   document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
-}
+};
 
 // Exercício 4
-function changeTextTitle() {
+const changeTextTitle = () => {
   document.getElementsByTagName('h1')[0].innerHTML = 'Exercício 5.1 - JavaScript';
-}
+};
 
 // Exercício 5
-function changeAllPTexts() {
+const changeAllPTexts = () => {
   const tagsP = document.getElementsByTagName('p');
   for (const index of tagsP) {
     index.innerHTML = index.innerHTML.toUpperCase();
   }
-}
+};
 
 // Exercício 6
-function showAllPContent() {
+const showAllPContent = () => {
   console.log(document.getElementsByTagName('p'));
-}
+};
 
 changeText();
 changeColorSquareOutside();
