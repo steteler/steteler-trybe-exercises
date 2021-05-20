@@ -10,8 +10,9 @@
     "sourceType": "module"
   },
   "rules": {
+    "no-restricted-syntax": ["error", "FunctionExpression"],
     "no-return-assign":"off",
-    "max-len": "off",
+    //"max-len": "off",
     "no-param-reassign": "off",
     "complexity": [
       "error",
