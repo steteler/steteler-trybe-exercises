@@ -1,14 +1,6 @@
 const assert = require('assert');
 
-const findTheNeedle = (array, word) => {
-  let output = -1;
-  for (const index in array) {
-    if (word === array[index]) {
-      output = Number(index);
-    }
-  }
-  return output;
-};
+const findTheNeedle = (array, word) => array.indexOf(word);
 
 let words = ['house', 'train', 'slide', 'needle', 'book'];
 let expected = 3;

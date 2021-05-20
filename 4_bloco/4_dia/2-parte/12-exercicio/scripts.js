@@ -6,6 +6,6 @@ const lowestIndexValue = (value) => {
     }
   }
   return lowestValue;
-}
+};
 
 console.log(`O valor do menor índice é: ${lowestIndexValue([2, 4, 6, 7, 10, 0, -3])}`);

@@ -4,6 +4,6 @@ const sumNumbers = (values) => {
     result += index;
   }
   return result;
-}
+};
 
 console.log(sumNumbers(5));

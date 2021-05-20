@@ -6,6 +6,6 @@ const biggestName = (names) => {
     }
   }
   return biggest;
-}
+};
 
 console.log(biggestName(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));

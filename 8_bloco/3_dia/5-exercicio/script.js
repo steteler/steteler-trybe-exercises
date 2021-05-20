@@ -72,7 +72,8 @@ const expectedResult = [
 ];
 
 const fantasyOrScienceFictionAuthors = () => {
-  const filteredBooks = books.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
+  const filteredBooks = books.filter((book) => 
+    book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
   return filteredBooks.map((book) => book.author.name).sort();
 };
 
