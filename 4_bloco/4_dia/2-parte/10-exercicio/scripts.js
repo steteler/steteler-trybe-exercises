@@ -7,6 +7,6 @@ const isPalindrome = (string) => {
     return true;
   }
   return false;
-}
+};
 
 console.log(isPalindrome('arara'));

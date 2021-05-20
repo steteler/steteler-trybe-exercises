@@ -5,7 +5,7 @@ const sum = (a, b) => {
     throw Error('parameters must be numbers');
   }
   return a + b;
-}
+};
 
 assert.strictEqual(typeof sum, 'function');
 // Exercicio 1
