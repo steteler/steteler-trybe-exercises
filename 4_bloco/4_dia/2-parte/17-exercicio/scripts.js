@@ -1,4 +1,4 @@
-function compareFinalString(word, wordEnd) {
+const compareFinalString = (word, wordEnd) => {
   let compareWords = '';
   for (let index = (word.length - 1); index >= 0; index -= 1) {
     if (index >= (word.length - wordEnd.length)) {

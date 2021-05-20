@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-function myRemoveWithoutCopy(arr, item) {
+const myRemoveWithoutCopy = (arr, item) => {
   for (let index = 0, len = arr.length; index < len; index += 1) {
     if (arr[index] === item) {
       arr.splice(index, 1);
@@ -10,7 +10,7 @@ function myRemoveWithoutCopy(arr, item) {
   }
 
   return arr;
-}
+};
 
 assert.strictEqual(typeof myRemoveWithoutCopy, 'function');
 // Exercicio 1

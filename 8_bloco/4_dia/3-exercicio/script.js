@@ -1,4 +1,3 @@
-/* eslint-disable no-return-assign */
 const assert = require('assert');
 
 const books = [
