@@ -11,9 +11,10 @@
   },
   "rules": {
     "no-restricted-syntax": ["error", "FunctionExpression"],
+    "max-len": "off",
     "no-return-assign":"off",
-    //"max-len": "off",
     "no-param-reassign": "off",
+    "sonarjs/no-duplicate-string": "off",
     "complexity": [
       "error",
       {
