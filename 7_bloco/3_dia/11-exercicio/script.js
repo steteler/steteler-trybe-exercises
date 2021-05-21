@@ -1,25 +1,18 @@
-/* eslint-disable complexity */
 const assert = require('assert');
 
 const removeVowelsNew = (word) => {
   const characters = word.split('');
-  const results = [];
+  const results2 = [];
+  const vowels = ['a', 'o', 'i', 'e', 'u'];
   let counter = 0;
-  for (let index = 0; index < characters.length; index += 1) {
-    if (
-      characters[index] === 'a'
-      || characters[index] === 'o'
-      || characters[index] === 'i'
-      || characters[index] === 'e'
-      || characters[index] === 'u'
-    ) {
-      counter += 1;
-      results.push(counter);
-    } else {
-      results.push(characters[index]);
+
+  results2.push(characters.reduce((accumulator, value, index) => { 
+    if (value === vowels[index]) {
+      return accumulator + (counter += 1);
     }
-  }
-  return results.join('');
+    return accumulator + value;
+  }, ''));
+  return results2.toString();
 };
 
 const parameter = 'Dayane';
