@@ -3,10 +3,11 @@ const assert = require('assert');
 const removeVowelsNew = (word) => {
   const characters = word.split('');
   const results2 = [];
+  const vowels = ['a', 'o', 'i', 'e', 'u'];
   let counter = 0;
 
-  results2.push(characters.reduce((accumulator, value) => { 
-    if (value === 'a' || value === 'o' || value === 'i' || value === 'e' || value === 'u') {
+  results2.push(characters.reduce((accumulator, value, index) => { 
+    if (value === vowels[index]) {
       return accumulator + (counter += 1);
     }
     return accumulator + value;
