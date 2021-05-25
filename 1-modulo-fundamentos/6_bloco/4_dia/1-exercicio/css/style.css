@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid black;
+  display: flex;
+  height: 300px;
+  margin: auto;
+  width: 500px;
+}
+
+.keep {
+  align-self: center;
+  background-color: rgb(250, 164, 136);
+  display: flex;
+  justify-content: center;
+  width: 150px;
+}
+
+.change {
+  align-self: center;
+  background-color: rgb(251, 210, 106);
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}

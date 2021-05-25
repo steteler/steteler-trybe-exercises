@@ -1,0 +1,53 @@
+#1 lista todos os processos.
+{
+  ps
+}
+
+#2 força uma espera de um certo período.
+{
+  sleep 30 &
+}
+
+#3 usa a listagem de processos para encontrar o PID do processo que está executando o comando sleep 30 e termina a sua execução.
+{
+  ps | grep sleep
+  kill 1234
+}
+
+#4 executa o comando sleep 30 e depois executa ele em background
+{
+  sleep 30
+  bg
+}
+
+#5 cria um processo em background que rode o comando sleep por 300 segundos.
+{
+  sleep 300 &
+}
+
+#6 suspende o processo.
+{
+  sleep 200
+  sleep 100
+  CTRL + Z
+}
+
+#7 trás para foreground um processo suspenso.
+{
+  jobs
+  fg %1
+}
+
+#8 retorna a execução do processo sleep 100 em background.
+{
+  bg %3
+  jobs
+}
+
+#9 termina a execução de todos os processos sleep.
+{
+  ps | grep sleep
+  kill 1234
+  kill 4567
+  kill 7890
+}

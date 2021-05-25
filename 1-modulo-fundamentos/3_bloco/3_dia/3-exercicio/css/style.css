@@ -1,0 +1,17 @@
+h1,
+p {
+  text-align: center;
+}
+
+li:hover {
+  color: red;
+}
+
+li:active {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
