@@ -50,4 +50,5 @@
   kill 1234
   kill 4567
   kill 7890
+  killall sleep
 }

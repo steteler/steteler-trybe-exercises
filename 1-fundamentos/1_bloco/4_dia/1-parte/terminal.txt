@@ -41,7 +41,6 @@
 }
 
 #7 conta o número de linhas que contêm as letras br.
-
 {
   grep br phrases2.txt | wc -l
 }

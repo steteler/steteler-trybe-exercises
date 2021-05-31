@@ -16,7 +16,6 @@
 }
 
 #4 tira a permissão de escrita do arquivo bunch_of_things.txt para todos os usuários.
-
 {
   chmod a-w bunch_of_things.txt
   ls -l
