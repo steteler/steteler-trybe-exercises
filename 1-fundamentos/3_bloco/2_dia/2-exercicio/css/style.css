@@ -1,16 +1,12 @@
 /* PARTE 1 */
 h1 {
-  font-family: sans-serif;
+  font-family: sans-serif, Helvetica;
 }
 
 /* PARTE 2, 4, 5 */
 p {
   font-weight: 600;
-  font-size: 48px;
-  font-style: normal;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: line-through;
+  font-size: 3em;
 }
 
 /* PARTE 3 */
@@ -18,15 +14,17 @@ body {
   font-size: 16px;
 }
 
+li {
+  font-size: 2em;
+  font-style: italic;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+
 /* PARTE 6 */
-.yellow {
-  background-color: yellow;
-}
+#yellow { background-color: yellow; }
 
-.red {
-  background-color: red;
-}
+#red { background-color: red; }
 
-.brown {
-  background-color: brown;
-}
+#brown { background-color: brown; }
