@@ -26,7 +26,9 @@
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
   "eslintIgnore": [
     "*.spec.ts",
     "*.test.js"
