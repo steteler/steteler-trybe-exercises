@@ -4,11 +4,12 @@ p {
 }
 
 li:hover {
-  color: red;
+  background-color: red;
 }
 
 li:active {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
 }
 
 ul,
