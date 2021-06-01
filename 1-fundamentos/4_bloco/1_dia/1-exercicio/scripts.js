@@ -1,9 +1,7 @@
-const name = 'João Victor Kikuti';
+const fullName = 'João Victor Kikuti';
 const birthCity = 'Guaíra';
-let birthYear = '2000';
+const birthYear = 2020;
 
-console.log(name, birthCity, birthYear);
-
-birthYear = 2020;
+console.log(fullName, birthCity, birthYear);
 
 console.log(birthYear);
