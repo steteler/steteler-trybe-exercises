@@ -9,6 +9,6 @@ for (let index = 0; index < number; index += 1) {
   }
   spacesNumbers -= 1;
   asterisks += '*';
-  console.log(spaces + asterisks, '\n');
+  console.log(spaces + asterisks);
   spaces = '';
 }

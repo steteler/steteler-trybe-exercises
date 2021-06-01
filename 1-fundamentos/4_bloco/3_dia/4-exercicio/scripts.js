@@ -1,4 +1,4 @@
-const number = 115;
+const number = 5;
 let spaces = '';
 let spacesNumbers = Math.trunc(number / 2);
 let asterisks = '';
