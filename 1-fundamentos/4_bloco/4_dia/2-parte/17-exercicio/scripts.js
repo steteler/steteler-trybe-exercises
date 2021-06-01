@@ -16,4 +16,4 @@ const compareFinalString = (word, wordEnd) => {
   return false;
 };
 
-console.log(compareFinalString('teste', 'ste'));
+console.log(compareFinalString('trybe', 'be'));

@@ -4,4 +4,4 @@ const info = {
   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
 };
 
-console.log(info.personagem);
+console.log(`Bem-vinda ${info.personagem}`);
