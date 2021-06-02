@@ -1,0 +1,40 @@
+h1 {
+  font-size: 65px;
+  color: orange;
+}     
+
+ul {
+  background-color: tomato;
+}
+
+.cor-de-fundo {
+  background-color: red;
+}
+
+h1 {
+  font-family: sans-serif, Helvetica;
+}
+
+p {
+  font-weight: 600;
+}
+
+body {
+  font-size: 16px;
+}
+
+p {
+  font-size: 3em;
+}
+
+li {
+  font-size: 2em;
+  font-style: italic;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#amarelo { background-color: yellow; }
+#vermelho { background-color: red; }
+#marrom { background-color: brown; }
