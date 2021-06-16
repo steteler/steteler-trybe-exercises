@@ -1,4 +1,4 @@
-const uppercase = require('./1-task');
+const uppercase = require('./script');
 
 test('uppercase "test" to equal "TEST"', (done) => {
   uppercase('teste', (str) => {
