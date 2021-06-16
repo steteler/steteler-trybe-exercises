@@ -1,4 +1,4 @@
-const { getUserName, findUserById } = require('./script');
+const { getUserName } = require('./script');
 
 describe('when the user id exists', () => {
   test('returns the user name', async () => {
