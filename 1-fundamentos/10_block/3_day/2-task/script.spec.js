@@ -1,6 +1,6 @@
 const math = require('./script');
 
-test('testa o retorno da função multiplicar', () => {
+test('multiplicar com retorno padrão de valor "10"', () => {
   math.multiplicar = jest.fn()
     .mockReturnValue(10);
   math.multiplicar();
