@@ -1,6 +1,6 @@
 const math = require('./script');
 
-test('', () => {
+test('Testa chamada, retorno e parâmetros passados para soma com entrada de dois valores', () => {
   const mockSomar = jest.spyOn(math, 'somar');
   mockSomar.mockResolvedValue(5);
 
