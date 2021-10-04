@@ -11,14 +11,10 @@ describe('Função sum()', () => {
   });
 
   it('3 - Verifica se retorna erro ao receber string no parâmetros', () => {
-    expect(() => {
-      sum(4, '5');
-    }).toThrow();
+    expect(() => { sum(4, '5'); }).toThrow();
   });
 
   it('4 - Verifica se retorna o erro "parameters must be numbers"', () => {
-    expect(() => {
-      sum(4, '5');
-    }).toThrow(/parameters must be numbers/);
+    expect(() => { sum(4, '5'); }).toThrow(/parameters must be numbers/);
   });
 });
