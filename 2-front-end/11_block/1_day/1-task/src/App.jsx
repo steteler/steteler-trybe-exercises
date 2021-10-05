@@ -1,16 +1,15 @@
-import './App.css';
 import React from 'react';
 
 const tarefas = ['Acordar', 'Tomar café', 'Escovar os dentes', 'Ir trabalhar'];
 
-const Task = (value) => {
+const Task = (tarefa) => {
   return (
-    <li>{value}</li>
+    <li>{tarefa}</li>
   );
 }
 
 function App() {
-  return <ul>{ tarefas.map((value) => Task(value)) }</ul>;
+  return <ul>{ tarefas.map((tarefa) => Task(tarefa)) }</ul>;
 }
 
 export default App;
