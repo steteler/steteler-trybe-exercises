@@ -1,6 +1,6 @@
-import React from 'react';
+import { Component } from 'react';
 
-class Pokemons extends React.Component {
+class Pokemons extends Component {
   render() {
     const pokemons = this.props.pokemons;
 
