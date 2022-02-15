@@ -52,7 +52,7 @@
 #11 mostra o path completo do diretório atual e lista todos os arquivos dentro dele.
 {
   pwd
-  ls -l .
+  ls -a
 }
 
 #12 apaga o diretório backup.
