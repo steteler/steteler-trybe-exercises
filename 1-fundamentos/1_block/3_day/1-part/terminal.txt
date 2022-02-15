@@ -58,6 +58,8 @@
 #12 apaga o diretório backup.
 {
   rm -rd backup
+  ou
+  rmdir backup
 }
 
 #13 limpa o terminal.
