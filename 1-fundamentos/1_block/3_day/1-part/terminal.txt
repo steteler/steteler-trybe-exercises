@@ -4,7 +4,7 @@
   cd unix_tests
 }
 
-#2 cria um arquivo de texto com o nome trybe.txt
+#2 cria um arquivo de texto com o nome trybe.txt.
 {
   touch trybe.txt
 }
