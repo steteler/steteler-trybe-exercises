@@ -7,8 +7,8 @@
 
 **Explicando de maneira simples**:
 
-*Github* - diretório que vai guardar todos os projetos.
-*trybe-exercises* - diretório a ser versionado.
+*Git* - diretório que vai guardar todos os projetos do git.
+*trybe* - diretório aonde você vai colocar seus exercícios da trybe.
 *1_bloco* - diretório que vai guardar todos os dias do bloco.
 *1_dia* - diretório que vai guardar todos os exercícios do dia.
 *1-exercicio* - diretório que vai guardar o primeiro exercício do dia.
@@ -17,31 +17,31 @@
 
 **Explicando de maneira detalhada**:
 
- 1. crie um diretório chamado Github ou Repositório-Local. obs: esse
-   diretório Github ele vai guardar todos seus projetos. Recomendo que
+ 1. crie um diretório chamado Git. obs: esse
+   diretório Git ele vai guardar todos seus projetos. Recomendo que
    você crie ele na Home.
 
-    `mkdir Github`
+    `mkdir Git`
 
  
- 1. crie um diretório chamado trybe-exercises dentro do diretório Github.
+ 1. crie um diretório chamado trybe dentro do diretório Git.
    obs: vai ser esse diretório que vai ser versionado.
    
    
-    `mkdir trybe-exercises`
+    `mkdir trybe`
 
    
- 1. dê git init dentro do diretório trybe-exercises. obs: isso vai   
+ 1. dê git init dentro do diretório trybe. obs: isso vai   
    criar o seu repositório local. Versionando assim tudo dentro do   
    diretório.
 
    
     `git init`
    
- 1. logo após isso, crie uma nova branch chamada: exercises/4.2. obs:
+ 1. logo após isso, crie uma nova branch chamada: 4.2 (bloco e o dia que você está). obs:
    o 4.2 é só pra representar o nome, sendo 4 (o bloco) e o 2 (o dia).
    
-    `git checkout -b exercises/4.2`
+    `git checkout -b 4.2`
    
  1. crie o diretório {número-do-bloco}_bloco. obs: nós estamos
    atualmente no bloco 4, ou seja, você vai criar um diretório chamado
@@ -72,7 +72,7 @@
 
 **Como deve ficar**:
 
-`/home/kikuti/Github/trybe-exercises/4_bloco/2_dia/1-exercicio/scripts.js`
+`/home/kikuti/Git/trybe/4_bloco/2_dia/1-exercicio/scripts.js`
 
 <hr />
 
