@@ -7,9 +7,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 <details>
-  <summary>
-    <h2>1. Módulo: Fundamentos :white_check_mark:</h2>
-  </summary>
+  <summary><h3>1. Módulo: Fundamentos :white_check_mark:</h3></summary>
   <h5>Bloco/Seção 1: Introdução - Unix & Shell</h5>
 
   - [x] 1-1-3: _Unix & Bash - Part 1_
@@ -71,9 +69,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 </details>
 
 <details>
-  <summary>
-    <h2>2. Módulo: Front-end :white_check_mark:</h2>
-  </summary>
+  <summary><h3>2. Módulo: Front-end :white_check_mark:</h3></summary>
   <h5>Bloco/Seção 1: Assincronicidade & Callbacks</h5>
 
   - [x] 2-1-1: _JavaScript Assíncrono e Callbacks_
@@ -137,9 +133,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 </details>
 
 <details>
-  <summary>
-    <h2>3. Módulo: Back-end :hourglass_flowing_sand:</h2>
-  </summary>
+  <summary><h3>3. Módulo: Back-end :hourglass_flowing_sand:</h3></summary>
   <h5>Bloco/Seção 1: Introdução - Bancos de dados relacionais</h5>
 
   - [ ] 3-1-1: _Banco de dados SQL_
@@ -233,23 +227,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   <h5>Bloco/Seção 15: Projeto</h5>
 
   - [ ] 3-15-1: _[Projeto - Trybeer V2]()_
-
-  ## Módulo: Ciência da Computação :hourglass_flowing_sand:
-
-  <h5>Bloco/Seção 16: Introdução - Ciência da Computação</h5>
-
-  - [ ] 3-16-1: _Arquitetura de Computadores_
-  - [ ] 3-16-2: _Arquitetura de redes_
-  - [ ] 3-16-3: _Redes de computadores, ferramentas e segurança_
-  - [ ] 3-16-4: _[Projeto - Explorando os protocolos]()_
-
-  <h5>Bloco/Seção 17: Python</h5>
-
-  - [ ] 3-17-1: _Aprendendo Python_
-  - [ ] 3-17-2: _Testes e Exceções_
-  - [ ] 3-17-3: _Entrada e Saída de dados_
-  - [ ] 3-17-4: _Entrada e Saída de dados_
-  - [ ] 3-17-5: _[Projeto - Tech news]()_
 </details>
 
-# [...]
+<details>
+  <summary><h3>4. Módulo: Ciência da Computação :hourglass_flowing_sand:</h3></summary>
+  <h5>Bloco/Seção 1: Introdução - Ciência da Computação</h5>
+
+  - [ ] 4-1-1: _Arquitetura de Computadores_
+  - [ ] 4-1-2: _Arquitetura de redes_
+  - [ ] 4-1-3: _Redes de computadores, ferramentas e segurança_
+  - [ ] 4-1-4: _[Projeto - Explorando os protocolos]()_
+
+  <h5>Bloco/Seção 2: Python</h5>
+
+  - [ ] 4-2-1: _Aprendendo Python_
+  - [ ] 4-2-2: _Testes e Exceções_
+  - [ ] 4-2-3: _Entrada e Saída de dados_
+  - [ ] 4-2-4: _Entrada e Saída de dados_
+  - [ ] 4-2-5: _[Projeto - Tech news]()_
+</details>
+
+# [ESSE README SEGUE EM CONSTANTE ATUALIZAÇÃO]
