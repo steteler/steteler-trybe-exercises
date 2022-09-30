@@ -76,59 +76,53 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
   </summary>
   <h5>Bloco/Seção 9: Assincronicidade & Callbacks</h5>
 
-  - [x] 9-1: _Primeiros passos no Jest_
-  - [x] 9-2: _JavaScript Assíncrono e Callbacks_
-  - [x] 9-3: _JavaScript Promises_
-  - [x] 9-4: _[Projeto - Carrinho de Compras]()_
+  - [x] 9-1: _JavaScript Assíncrono e Callbacks_
+  - [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+  - [x] 9-3: _Jest - Testes Assíncronos_
+  - [x] 9-4: _[Projeto - Carrinho de Compras](https://github.com/kikutii/kikuti-project-shopping-cart)_
 
-  <h5>Bloco/Seção 10: Jest</h5>
+  <h5>Bloco/Seção 10: Introdução - React</h5>
 
-  - [x] 10-1: _Jest - Testes Assíncronos_
-  - [x] 10-2: _Jest - Simulando comportamentos_
-  - [x] 10-3: _[Projeto - Jest Assíncrono e Mocking]()_
+  - [x] 10-1: _'Hello, world!' no React!_
+  - [x] 10-2: _Componentes React_
+  - [ ] 10-3: _[Projeto - Solar System]()_
 
-  <h5>Bloco/Seção 11: Introdução - React</h5>
+  <h5>Bloco/Seção 11: React</h5>
 
-  - [x] 11-1: _'Hello, world!' no React!_
-  - [x] 11-2: _Componentes React_
-  - [ ] 11-3: _[Projeto - Movie Cards Library]()_
+  - [ ] 11-1: _Components com estado e eventos_
+  - [ ] 11-2: _Formulários no React_
+  - [x] 11-3: _[Projeto - Tryunfo](https://github.com/kikutii/kikutii-project-tryunfo)_
 
-  <h5>Bloco/Seção 12: React</h5>
+  <h5>Bloco/Seção 12: Ciclo de Vida de Componentes e React router</h5>
 
-  - [ ] 12-1: _Components com estado_
-  - [ ] 12-2: _Eventos e formulários no React_
-  - [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+  - [ ] 12-1: _Ciclo de vida de componentes_
+  - [ ] 12-2: _React Router_
+  - [ ] 12-3: _[Projeto - TrybeTunes]()_
 
-  <h5>Bloco/Seção 13: React</h5>
+  <h5>Bloco/Seção 13: Metodologias Ágeis</h5>
 
-  - [ ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-  - [ ] 13-2: _Ciclo de vida de componentes em React_
-  - [ ] 13-3: _React Router_
-  - [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+  - [ ] 13-1: _Metodologias Ágeis_
+  - [ ] 13-2: _[Projeto - Frontend Online Store]()_
 
-  <h5>Bloco/Seção 14: Metodologias Ágeis</h5>
+  <h5>Bloco/Seção 14: Testes em React</h5>
 
-  - [ ] 14-1: _Metodologias Ágeis_
-  - [ ] 14-2: _[Projeto - Frontend Online Store]()_
+  - [ ] 14-1: _RTL - Primeiros passos_
+  - [ ] 14-2: _RTL - mocks e inputs_
+  - [ ] 14-3: _RTL - Testando React Router_
+  - [ ] 14-4: _[Projeto - Testes em React]()_
 
-  <h5>Bloco/Seção 15: Testes em React</h5>
+  <h5>Bloco/Seção 15: Introdução ao Redux</h5>
 
-  - [ ] 15-1: _Testando React com a React Testing Library_
-  - [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
-  - [ ] 15-3: _[Projeto - Testes em React]()_
+  - [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
+  - [ ] 15-2: _React com Redux - Parte 1_
+  - [ ] 15-3: _React com Redux - Prática_
+  - [ ] 15-4: _React com Redux - Parte 2_
+  - [ ] 15-5: _Testes síncronos com React-Redux_
+  - [ ] 15-6: _[Projeto - Trybe Wallet]()_
 
-  <h5>Bloco/Seção 16: Introdução ao Redux</h5>
+  <h5>Bloco/Seção 16: Projeto React</h5>
 
-  - [ ] 16-1: _Introdução ao Redux_
-  - [ ] 16-2: _React com Redux - Parte 1_
-  - [ ] 16-3: _React com Redux - Prática_
-  - [ ] 16-4: _React com Redux - Parte 2_
-  - [ ] 16-5: _Testes síncronos com React-Redux_
-  - [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
-
-  <h5>Bloco/Seção 17: Projeto React</h5>
-
-  - [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+  - [ ] 16-1: _[Projeto - Jogo de Trivia]()_
 
   <h5>Bloco/Seção 18: React & Context API</h5>
 
