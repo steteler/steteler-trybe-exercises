@@ -8,248 +8,248 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 <details>
   <summary>
-    <h2>Módulo: Fundamentos :white_check_mark:</h2>
+    <h2>1. Módulo: Fundamentos :white_check_mark:</h2>
   </summary>
   <h5>Bloco/Seção 1: Introdução - Unix & Shell</h5>
 
-  - [x] 1-3: _Unix & Bash - Part 1_
-  - [x] 1-4: _Unix & Bash - Part 2_
+  - [x] 1-1-3: _Unix & Bash - Part 1_
+  - [x] 1-1-4: _Unix & Bash - Part 2_
 
   <h5>Bloco/Seção 2: Git & GitHub</h5>
 
-  - [x] 2-1: _O que é e para que serve?_
-  - [x] 2-2: _Entendendo os comandos_
+  - [x] 1-2-1: _O que é e para que serve?_
+  - [x] 1-2-2: _Entendendo os comandos_
 
   <h5>Bloco/Seção 3: Introdução - HTML & CSS</h5>
 
-  - [x] 3-1: _HTML & CSS - Estruturas de página_
-  - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
-  - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
-  - [x] 3-4: _HTML Semântico_
-  - [x] 3-5: _[Projeto - Lessons Learned - HTML & CSS](https://github.com/kikutii/kikuti-project-lessons-learned)_
+  - [x] 1-3-1: _HTML & CSS - Estruturas de página_
+  - [x] 1-3-2: _HTML & CSS - Primeiros passos em CSS_
+  - [x] 1-3-3: _HTML & CSS - Seletores e posicionamento_
+  - [x] 1-3-4: _HTML Semântico_
+  - [x] 1-3-5: _[Projeto - Lessons Learned - HTML & CSS](https://github.com/kikutii/kikuti-project-lessons-learned)_
 
   <h5>Bloco/Seção 4: Introdução - JavaScript</h5>
 
-  - [x] 4-1: _JavaScript - Primeiros passos_
-  - [x] 4-2: _JavaScript - Array e loop For_
-  - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-  - [x] 4-4: _JavaScript - Objetos e funções_
-  - [x] 3-5: _[Projeto - Playground Functions - Javascript](https://github.com/kikutii/kikuti-project-playground-functions)_
+  - [x] 1-4-1: _JavaScript - Primeiros passos_
+  - [x] 1-4-2: _JavaScript - Array e loop For_
+  - [x] 1-4-3: _JavaScript - Lógica de Programação e Algoritmos_
+  - [x] 1-4-4: _JavaScript - Objetos e funções_
+  - [x] 1-3-5: _[Projeto - Playground Functions - Javascript](https://github.com/kikutii/kikuti-project-playground-functions)_
 
   <h5>Bloco/Seção 5: Introdução - JavaScript - Projetos</h5>
 
-  - [x] 5-1: _Javascript - DOM e seletores_
-  - [x] 5-2: _Javascript - Trabalhando com elementos_
-  - [x] 5-3: _Javascript - Eventos_
-  - [x] 5-4: _Javascript - Web Storage_
-  - [x] 5-5: _[Projeto - Pixel Art - Javascript & HTML/CSS](https://github.com/kikutii/kikuti-project-pixels-art)_
+  - [x] 1-5-1: _Javascript - DOM e seletores_
+  - [x] 1-5-2: _Javascript - Trabalhando com elementos_
+  - [x] 1-5-3: _Javascript - Eventos_
+  - [x] 1-5-4: _Javascript - Web Storage_
+  - [x] 1-5-5: _[Projeto - Pixel Art - Javascript & HTML/CSS](https://github.com/kikutii/kikuti-project-pixels-art)_
 
   <h5>Bloco/Seção 6: Introdução - Front-end</h5>
 
-  - [x] 6-1: _HTML & CSS - Forms_
-  - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-  - [x] 6-3: _CSS Flexbox - Part 1_
-  - [x] 6-4: _CSS Flexbox - Part 2_
-  - [x] 6-5: _CSS Responsivo - Mobile First_
-  - [x] 6-6: _[Projeto - TrybeWarts](https://github.com/kikutii/kikuti-trybewarts-project)_
+  - [x] 1-6-1: _HTML & CSS - Forms_
+  - [x] 1-6-2: _Bibliotecas JavaScript e Frameworks CSS_
+  - [x] 1-6-3: _CSS Flexbox - Part 1_
+  - [x] 1-6-4: _CSS Flexbox - Part 2_
+  - [x] 1-6-5: _CSS Responsivo - Mobile First_
+  - [x] 1-6-6: _[Projeto - TrybeWarts](https://github.com/kikutii/kikuti-trybewarts-project)_
 
   <h5>Bloco/Seção 7: JavaScript ES6 & Testes Unitários</h5>
 
-  - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-  - [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
-  - [x] 7-3: _Primeiros passos em Jest_
-  - [x] 7-4: _[Projeto - JavaScript Testes Unitários - Jest](https://github.com/kikutii/kikuti-project-js-unit-tests)_
+  - [x] 1-7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+  - [x] 1-7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+  - [x] 1-7-3: _Primeiros passos em Jest_
+  - [x] 1-7-4: _[Projeto - JavaScript Testes Unitários - Jest](https://github.com/kikutii/kikuti-project-js-unit-tests)_
 
   <h5>Bloco/Seção 8: JavaScript ES6</h5>
 
-  - [x] 8-1: _JavaScript ES6 - Introdução a Higher Order Funcstions_
-  - [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
-  - [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
-  - [x] 8-4: _JavaScript ES6 - Higher Order Funcstions - reduce_
-  - [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-  - [x] 8-6: _[Projeto - Zoo functions - Javascript](https://github.com/kikutii/kikuti-zoo-functions-project)_
+  - [x] 1-8-1: _JavaScript ES6 - Introdução a Higher Order Funcstions_
+  - [x] 1-8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
+  - [x] 1-8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+  - [x] 1-8-4: _JavaScript ES6 - Higher Order Funcstions - reduce_
+  - [x] 1-8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+  - [x] 1-8-6: _[Projeto - Zoo functions - Javascript](https://github.com/kikutii/kikuti-zoo-functions-project)_
 </details>
 
 <details>
   <summary>
-    <h2>Módulo: Front-end :white_check_mark:</h2>
+    <h2>2. Módulo: Front-end :white_check_mark:</h2>
   </summary>
-  <h5>Bloco/Seção 9: Assincronicidade & Callbacks</h5>
+  <h5>Bloco/Seção 1: Assincronicidade & Callbacks</h5>
 
-  - [x] 9-1: _JavaScript Assíncrono e Callbacks_
-  - [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-  - [x] 9-3: _Jest - Testes Assíncronos_
-  - [x] 9-4: _[Projeto - Carrinho de Compras](https://github.com/kikutii/kikuti-project-shopping-cart)_
+  - [x] 2-1-1: _JavaScript Assíncrono e Callbacks_
+  - [x] 2-1-2: _JavaScript Assíncrono - Fetch API e async/await_
+  - [x] 2-1-3: _Jest - Testes Assíncronos_
+  - [x] 2-1-4: _[Projeto - Carrinho de Compras](https://github.com/kikutii/kikuti-project-shopping-cart)_
 
-  <h5>Bloco/Seção 10: Introdução - React</h5>
+  <h5>Bloco/Seção 2: Introdução - React</h5>
 
-  - [x] 10-1: _'Hello, world!' no React!_
-  - [x] 10-2: _Componentes React_
-  - [ ] 10-3: _[Projeto - Solar System]()_
+  - [x] 2-2-1: _'Hello, world!' no React!_
+  - [x] 2-2-2: _Componentes React_
+  - [ ] 2-2-3: _[Projeto - Solar System]()_
 
-  <h5>Bloco/Seção 11: React</h5>
+  <h5>Bloco/Seção 3: React</h5>
 
-  - [ ] 11-1: _Components com estado e eventos_
-  - [ ] 11-2: _Formulários no React_
-  - [x] 11-3: _[Projeto - Tryunfo](https://github.com/kikutii/kikutii-project-tryunfo)_
+  - [ ] 2-3-1: _Components com estado e eventos_
+  - [ ] 2-3-2: _Formulários no React_
+  - [x] 2-3-3: _[Projeto - Tryunfo](https://github.com/kikutii/kikutii-project-tryunfo)_
 
-  <h5>Bloco/Seção 12: Ciclo de Vida de Componentes e React router</h5>
+  <h5>Bloco/Seção 4: Ciclo de Vida de Componentes e React router</h5>
 
-  - [ ] 12-1: _Ciclo de vida de componentes_
-  - [ ] 12-2: _React Router_
-  - [ ] 12-3: _[Projeto - TrybeTunes]()_
+  - [ ] 2-4-1: _Ciclo de vida de componentes_
+  - [ ] 2-4-2: _React Router_
+  - [ ] 2-4-3: _[Projeto - TrybeTunes]()_
 
-  <h5>Bloco/Seção 13: Metodologias Ágeis</h5>
+  <h5>Bloco/Seção 5: Metodologias Ágeis</h5>
 
-  - [ ] 13-1: _Metodologias Ágeis_
-  - [ ] 13-2: _[Projeto - Frontend Online Store]()_
+  - [ ] 2-5-1: _Metodologias Ágeis_
+  - [ ] 2-5-2: _[Projeto - Frontend Online Store]()_
 
-  <h5>Bloco/Seção 14: Testes em React</h5>
+  <h5>Bloco/Seção 6: Testes em React</h5>
 
-  - [ ] 14-1: _RTL - Primeiros passos_
-  - [ ] 14-2: _RTL - mocks e inputs_
-  - [ ] 14-3: _RTL - Testando React Router_
-  - [ ] 14-4: _[Projeto - Testes em React]()_
+  - [ ] 2-6-1: _RTL - Primeiros passos_
+  - [ ] 2-6-2: _RTL - mocks e inputs_
+  - [ ] 2-6-3: _RTL - Testando React Router_
+  - [ ] 2-6-4: _[Projeto - Testes em React]()_
 
-  <h5>Bloco/Seção 15: Introdução ao Redux</h5>
+  <h5>Bloco/Seção 7: Introdução ao Redux</h5>
 
-  - [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
-  - [ ] 15-2: _React com Redux - Parte 1_
-  - [ ] 15-3: _React com Redux - Prática_
-  - [ ] 15-4: _React com Redux - Parte 2_
-  - [ ] 15-5: _Testes síncronos com React-Redux_
-  - [ ] 15-6: _[Projeto - Trybe Wallet]()_
+  - [ ] 2-7-1: _Introdução ao Redux - O estado global da aplicação_
+  - [ ] 2-7-2: _React com Redux - Parte 1_
+  - [ ] 2-7-3: _React com Redux - Prática_
+  - [ ] 2-7-4: _React com Redux - Parte 2_
+  - [ ] 2-7-5: _Testes síncronos com React-Redux_
+  - [ ] 2-7-6: _[Projeto - Trybe Wallet]()_
 
-  <h5>Bloco/Seção 16: Projeto React</h5>
+  <h5>Bloco/Seção 8: Projeto React</h5>
 
-  - [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+  - [ ] 2-8-1: _[Projeto - Jogo de Trivia]()_
 
-  <h5>Bloco/Seção 18: React & Context API</h5>
+  <h5>Bloco/Seção 9: React & Context API</h5>
 
-  - [ ] 18-1: _Context API do React_
-  - [ ] 18-2: _React Hooks - useState e useContext_
-  - [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-  - [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+  - [ ] 2-9-1: _Context API do React_
+  - [ ] 2-9-2: _React Hooks - useState e useContext_
+  - [ ] 2-9-3: _React Hooks - useEffect e Hooks customizados_
+  - [ ] 2-9-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-  <h5>Bloco/Seção 19: Projeto Final de Front-end</h5>
+  <h5>Bloco/Seção 10: Projeto Final de Front-end</h5>
 
-  - [ ] 19-1: _[Projeto - App de Receitas]()_
+  - [ ] 12-10-1: _[Projeto - App de Receitas]()_
 </details>
 
 <details>
   <summary>
-    <h2>Módulo: Back-end :hourglass_flowing_sand:</h2>
+    <h2>3. Módulo: Back-end :hourglass_flowing_sand:</h2>
   </summary>
-  <h5>Bloco/Seção 20: Introdução - Bancos de dados relacionais</h5>
+  <h5>Bloco/Seção 1: Introdução - Bancos de dados relacionais</h5>
 
-  - [ ] 20-1: _Banco de dados SQL_
-  - [ ] 20-2: _Encontrando dados em um banco de dados_
-  - [ ] 20-3: _Filtrando dados de forma específica_
-  - [ ] 20-4: _Manipulando tabelas_
-  - [ ] 20-5: _[Projeto - All For One]()_
+  - [ ] 3-1-1: _Banco de dados SQL_
+  - [ ] 3-1-2: _Encontrando dados em um banco de dados_
+  - [ ] 3-1-3: _Filtrando dados de forma específica_
+  - [ ] 3-1-4: _Manipulando tabelas_
+  - [ ] 3-1-5: _[Projeto - All For One]()_
 
-  <h5>Bloco/Seção 21: Bancos de dados relacionais</h5>
+  <h5>Bloco/Seção 2: Bancos de dados relacionais</h5>
 
-  - [ ] 21-1: _Funções mais usadas no SQL_
-  - [ ] 21-2: _Descomplicando JOINs e UNIONs_
-  - [ ] 21-3: _Stored Routines & Subqueries_
-  - [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+  - [ ] 3-2-1: _Funções mais usadas no SQL_
+  - [ ] 3-2-2: _Descomplicando JOINs e UNIONs_
+  - [ ] 3-2-3: _Stored Routines & Subqueries_
+  - [ ] 3-2-4: _[Projeto - Vocabulary Booster]()_
 
-  <h5>Bloco/Seção 22: Bancos de dados relacionais</h5>
+  <h5>Bloco/Seção 3: Bancos de dados relacionais</h5>
 
-  - [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-  - [ ] 22-2: _Normalização, Formas Normais e Dumps_
-  - [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-  - [ ] 22-3: _[Projeto - One For All]()_
+  - [ ] 3-3-1: _Transformando ideias em um modelo de banco de dados_
+  - [ ] 3-3-2: _Normalização, Formas Normais e Dumps_
+  - [ ] 3-3-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+  - [ ] 3-3-3: _[Projeto - One For All]()_
 
-  <h5>Bloco/Seção 23: Introdução - NoSQL</h5>
+  <h5>Bloco/Seção 4: Introdução - NoSQL</h5>
 
-  - [ ] 23-1: _MongoDB - Introdução_
-  - [ ] 23-2: _Filter Operators_
-  - [ ] 23-3: _[Projeto - Data Flights]()_
+  - [ ] 3-4-1: _MongoDB - Introdução_
+  - [ ] 3-4-2: _Filter Operators_
+  - [ ] 3-4-3: _[Projeto - Data Flights]()_
 
-  <h5>Bloco/Seção 24: Updates</h5>
+  <h5>Bloco/Seção 5: Updates</h5>
 
-  - [ ] 24-1: _Updates Simples_
-  - [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-  - [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-  - [ ] 24-4: _[Projeto - Commerce]()_
+  - [ ] 3-5-1: _Updates Simples_
+  - [ ] 3-5-2: _Updates Complexos - Arrays - Parte 1_
+  - [ ] 3-5-3: _Updates Complexos - Arrays - Parte 2_
+  - [ ] 3-5-4: _[Projeto - Commerce]()_
 
-  <h5>Bloco/Seção 25: Aggregation Framework</h5>
+  <h5>Bloco/Seção 6: Aggregation Framework</h5>
 
-  - [ ] 25-1: _Aggregation Framework - Part 1_
-  - [ ] 25-2: _Aggregation Framework - Part 2_
-  - [ ] 25-3: _[Projeto - Aggregations]()_
+  - [ ] 3-6-1: _Aggregation Framework - Part 1_
+  - [ ] 3-6-2: _Aggregation Framework - Part 2_
+  - [ ] 3-6-3: _[Projeto - Aggregations]()_
 
-  <h5>Bloco/Seção 26: Intro - NodeJS</h5>
+  <h5>Bloco/Seção 7: Intro - NodeJS</h5>
 
-  - [ ] 26-1: _NodeJS - Introdução_
-  - [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-  - [ ] 26-3: _NodeJS - Arquitetura_
-  - [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+  - [ ] 3-7-1: _NodeJS - Introdução_
+  - [ ] 3-7-2: _NodeJS - Fluxo Assíncrono_
+  - [ ] 3-7-3: _NodeJS - Arquitetura_
+  - [ ] 3-7-4: _[Projeto - A CLI of Ice and Fire]()_
 
-  <h5>Bloco/Seção 27: NodeJS</h5>
+  <h5>Bloco/Seção 8: NodeJS</h5>
 
-  - [ ] 27-1: _Express: HTTP com Node.js_
-  - [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-  - [ ] 27-3: _[Projeto - Cookmaster]()_
+  - [ ] 3-8-1: _Express: HTTP com Node.js_
+  - [ ] 3-8-2: _Arquitetura de Software - Introdução ao MVC_
+  - [ ] 3-8-3: _[Projeto - Cookmaster]()_
 
-  <h5>Bloco/Seção 28: NodeJS</h5>
+  <h5>Bloco/Seção 9: NodeJS</h5>
 
-  - [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-  - [ ] 28-2: _Arquitetura web - Rest e Restful_
-  - [ ] 28-3: _[Projeto - Store Manager]()_
+  - [ ] 3-9-1: _Arquitetura de Software - Camada de Serviço_
+  - [ ] 3-9-2: _Arquitetura web - Rest e Restful_
+  - [ ] 3-9-3: _[Projeto - Store Manager]()_
 
-  <h5>Bloco/Seção 29: NodeJS</h5>
+  <h5>Bloco/Seção 10: NodeJS</h5>
 
-  - [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-  - [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-  - [ ] 29-3: _[Projeto - Cookmaster V2]()_
+  - [ ] 3-10-1: _NodeJS - JWT - (JSON Web Token)_
+  - [ ] 3-10-2: _NodeJS - Upload de arquivos com Multer_
+  - [ ] 3-10-3: _[Projeto - Cookmaster V2]()_
 
-  <h5>Bloco/Seção 30: Introdução - Deploy</h5>
+  <h5>Bloco/Seção 11: Introdução - Deploy</h5>
 
-  - [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-  - [ ] 30-2: _Deploy - Gerenciadores de Processos_
-  - [ ] 30-3: _[Projeto - Stranger Things]()_
+  - [ ] 3-11-1: _Infraestrutura - Deploy com Heroku_
+  - [ ] 3-11-2: _Deploy - Gerenciadores de Processos_
+  - [ ] 3-11-3: _[Projeto - Stranger Things]()_
 
-  <h5>Bloco/Seção 31: Projeto</h5>
+  <h5>Bloco/Seção 12: Projeto</h5>
 
-  - [ ] 31-1: _[Projeto - Trybeer]()_
+  - [ ] 3-12-1: _[Projeto - Trybeer]()_
 
-  <h5>Bloco/Seção 32: Arquitetura de Software</h5>
+  <h5>Bloco/Seção 13: Arquitetura de Software</h5>
 
-  - [ ] 32-1: _Arquitetura - Princípios SOLID_
-  - [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-  - [ ] 32-3: _Arquitetura de Software - DDD_
-  - [ ] 32-4: _Boas práticas na escrita de testes_
-  - [ ] 32-3: _[Projeto - API de Blogs]()_
+  - [ ] 3-13-1: _Arquitetura - Princípios SOLID_
+  - [ ] 3-13-2: _ORM - Interface da aplicação com o banco de dados_
+  - [ ] 3-13-3: _Arquitetura de Software - DDD_
+  - [ ] 3-13-4: _Boas práticas na escrita de testes_
+  - [ ] 3-13-3: _[Projeto - API de Blogs]()_
 
-  <h5>Bloco/Seção 33: Sockets</h5>
+  <h5>Bloco/Seção 14: Sockets</h5>
 
-  - [ ] 30-1: _Sockets - TCP/UDP & NET_
-  - [ ] 30-2: _Sockets - Socket.io_
-  - [ ] 30-3: _[Projeto - Webchat]()_
+  - [ ] 3-14-1: _Sockets - TCP/UDP & NET_
+  - [ ] 3-14-2: _Sockets - Socket.io_
+  - [ ] 3-14-3: _[Projeto - Webchat]()_
 
-  <h5>Bloco/Seção 34: Projeto</h5>
+  <h5>Bloco/Seção 15: Projeto</h5>
 
-  - [ ] 34-1: _[Projeto - Trybeer V2]()_
+  - [ ] 3-15-1: _[Projeto - Trybeer V2]()_
 
   ## Módulo: Ciência da Computação :hourglass_flowing_sand:
 
-  <h5>Bloco/Seção 35: Introdução - Ciência da Computação</h5>
+  <h5>Bloco/Seção 16: Introdução - Ciência da Computação</h5>
 
-  - [ ] 35-1: _Arquitetura de Computadores_
-  - [ ] 35-2: _Arquitetura de redes_
-  - [ ] 35-3: _Redes de computadores, ferramentas e segurança_
-  - [ ] 35-4: _[Projeto - Explorando os protocolos]()_
+  - [ ] 3-16-1: _Arquitetura de Computadores_
+  - [ ] 3-16-2: _Arquitetura de redes_
+  - [ ] 3-16-3: _Redes de computadores, ferramentas e segurança_
+  - [ ] 3-16-4: _[Projeto - Explorando os protocolos]()_
 
-  <h5>Bloco/Seção 36: Python</h5>
+  <h5>Bloco/Seção 17: Python</h5>
 
-  - [ ] 35-1: _Aprendendo Python_
-  - [ ] 35-2: _Testes e Exceções_
-  - [ ] 35-3: _Entrada e Saída de dados_
-  - [ ] 36-4: _Entrada e Saída de dados_
-  - [ ] 35-5: _[Projeto - Tech news]()_
+  - [ ] 3-17-1: _Aprendendo Python_
+  - [ ] 3-17-2: _Testes e Exceções_
+  - [ ] 3-17-3: _Entrada e Saída de dados_
+  - [ ] 3-17-4: _Entrada e Saída de dados_
+  - [ ] 3-17-5: _[Projeto - Tech news]()_
 </details>
 
 # [...]
