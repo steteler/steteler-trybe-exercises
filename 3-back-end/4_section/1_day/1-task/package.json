@@ -1,0 +1,14 @@
+{
+  "name": "1-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bmi.js",
+  "scripts": {
+    "bmi": "node ."
+  },
+  "author": "kikutii",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
