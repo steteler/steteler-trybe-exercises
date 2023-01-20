@@ -1,5 +1,5 @@
-const bookRoutes = require('./book.routes');
+const book = require('./book.routes');
 
 module.exports = {
-  bookRoutes,
+  book,
 };
