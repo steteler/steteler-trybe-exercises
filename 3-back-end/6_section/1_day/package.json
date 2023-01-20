@@ -1,0 +1,21 @@
+{
+  "name": "1_day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17",
+    "mysql2": "2.3",
+    "sequelize": "6.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "sequelize-cli": "6.2"
+  }
+}
