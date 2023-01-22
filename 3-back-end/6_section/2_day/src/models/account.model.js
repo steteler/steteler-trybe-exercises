@@ -16,14 +16,19 @@ module.exports = (sequelize, DataTypes) => {
     },
   }, {
     underscored: true,
-    timestamp: false,
+    timestamps: false,
     tableName: 'accounts',
   });
 
-  Account.associate = ({ Profile }) => {
+  Account.associate = ({ Profile, Comment }) => {
     Account.hasOne(Profile, {
       foreignKey: 'account_id',
       as: 'account_profile',
+    });
+
+    Account.hasMany(Comment, {
+      foreignKey: 'account_id',
+      as: 'account_comments',
     });
   };
 
