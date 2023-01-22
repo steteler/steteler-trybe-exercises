@@ -1,24 +1,31 @@
-'use strict';
-
 module.exports = (sequelize, DataTypes) => {
-  return sequelize.define('Account', {
+  const Account = sequelize.define('Account', {
     id: {
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
       type: DataTypes.INTEGER,
-    }
+    },
     email: {
       allowNull: false,
       type: DataTypes.STRING,
-    }
+    },
     password: {
       allowNull: false,
       type: DataTypes.STRING,
-    }
+    },
   }, {
+    underscored: true,
     timestamp: false,
     tableName: 'accounts',
-    underscored: true
   });
+
+  Account.associate = ({ Profile }) => {
+    Account.hasOne(Profile, {
+      foreignKey: 'account_id',
+      as: 'account_profile',
+    });
+  };
+
+  return Account;
 };
