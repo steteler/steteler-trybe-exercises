@@ -1,0 +1,26 @@
+{
+  "name": "2_day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "10.0",
+    "express": "4.17",
+    "mysql2": "2.3",
+    "sequelize": "6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "2.0",
+    "sequelize-cli": "^6.5.2"
+  }
+}
