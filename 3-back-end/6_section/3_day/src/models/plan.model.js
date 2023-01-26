@@ -1,7 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
   const Plan = sequelize.define('Plan', {
     id: {
-      allowNull: false,
       primaryKey: true,
       autoIncrement: true,
       type: DataTypes.INTEGER,
