@@ -6,21 +6,4 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - "3306:3306"
-
-  api:
-    image: node:16
-    restart: always
-    container_name: api
-    ports:
-      - 3000:3000
-    volumes:
-      - ./:/usr/app
-    user: node
-    working_dir: /usr/app
-    command: bash
-    # As duas opções abaixo correspondem ao -it
-    tty: true # -t
-    stdin_open: true #-i 
-    depends_on:
-      - mysql
+      - 3306:3306
